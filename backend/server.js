@@ -18,7 +18,7 @@ server.get('/api/user/:user/genre/:genre/nationalities', onGetNationalitiesForUs
 server.get('/api/albumCountByArtist', onGetAlbumCountByArtist);
 server.listen(port, onServerReady);
 
-⋮
+
 async function onGetAlbumCountByArtist(request, response) {
     const limit = request.query.limit;
     const dbResult = await db.query(`
