@@ -8,19 +8,22 @@ console.log(`Recreating database on ${timestamp}...`);
 console.log('Dropping existing tables...');
 await db.query('drop table if exists artists');
 await db.query('drop table if exists albums');
-await db.query('drop table if exists media_types');
+
 await db.query('drop table if exists tracks');
 await db.query('drop table if exists genres');
+
+await db.query('drop table if exists category');
 await db.query('drop table if exists users');
 await db.query('drop table if exists playlists');
-await db.query('drop table if exists playlist_track');
+await db.query('drop table if exists playlist_tracks');
+await db.query('drop table if exists queue');
 
 console.log('Creating tables...');
+
 await db.query(`
     create table artists (
         artist_id   integer,
-        stage_name  text,
-        nationality char(2)
+        stage_name  text
     )
 `);
 await db.query(`
@@ -28,30 +31,18 @@ await db.query(`
         album_id         integer,
         artist_id        integer,
         release_date     date,
-        title            text,
-        riaa_certificate text 
+        title            text 
     )
 `);
-await db.query(`
-    create table media_types (
-        media_type_id integer,
-        bit_depth     integer,
-        sample_rate   real,
-        lossless      boolean,
-        name          text,
-        description   text
-    )
-`);
+
 await db.query(`
     create table tracks (
         track_id      integer,
         album_id      integer,
-        media_type_id integer,
         genre_id      integer,
         milliseconds  integer,
-        bytes         bigint,
-        unit_price    numeric(10, 2),
-        title         text
+        title         text,
+        bpm           numeric
     )
 `);
 await db.query(`
@@ -61,6 +52,28 @@ await db.query(`
         description text
     )
 `);
+
+await db.query(`
+    create table category (
+        category_id         integer,
+        category_name       text,
+        bpm                 numeric,
+        release_date        date,
+        genre_id            integer,
+        genreTwo_id         integer
+    )
+`);
+
+await db.query(`
+    create table playlists (
+        playlist_id bigint,
+        user_id     bigint,
+        created     timestamp,
+        name        text,
+        category_id integer
+    )
+`);
+
 await db.query(`
     create table users (
         user_id     bigint,
@@ -71,17 +84,19 @@ await db.query(`
     )
 `);
 await db.query(`
-    create table playlists (
+    create table playlist_track (
         playlist_id bigint,
-        user_id     bigint,
-        created     timestamp,
-        name        text
+        track_id    integer,
+        position    integer
     )
 `);
 await db.query(`
-    create table playlist_track (
-        playlist_id bigint,
-        track_id    integer
+    create table queue (
+        queue_id    integer,
+        track_id    integer,
+        playlist_id integer,
+        is_played   boolean,
+        position    integer
     )
 `);
 
