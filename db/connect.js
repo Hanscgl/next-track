@@ -1,6 +1,6 @@
 import pg from 'pg';
 import dotenv from 'dotenv';
-//hej 
+//hej iu 
 dotenv.config();
 const env = {
     host: process.env.PG_HOST,
