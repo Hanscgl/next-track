@@ -1,0 +1,4 @@
+category_id, category_name, BPM_min, BPM_max, release_date_min, release_date_max
+1,Workout,130,180,1990-01-01,2014-12-31
+2,Chill,60,100,1980-01-01, 2008-12-31
+3,Klassisk rock,100,145,1960-01-01,1989-12-31
