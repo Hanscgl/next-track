@@ -1,0 +1,43 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+#main-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  margin-bottom: 20px;
+}
+
+#logo-title, #user-display {
+  padding: 10px;
+}
+
+#page-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: 12px;
+}
+
+#left-section {
+  border: 1px solid black;
+  padding-left: 10px;
+}
+
+#middle-section {
+  border: 1px solid black;
+  padding-left: 10px;
+}
+
+
+#right-section {
+  border: 1px solid black;
+  padding-left: 10px;
+}
+
+.playlist-options {
+  border: 1px solid black;
+
+}
+
