@@ -1,6 +1,6 @@
 ID,Title,Album,Genre,Duration in ms,BPM
 1,For Those About To Rock (We Salute You),1,1,343719,132.9
-2,Balls to the Wall,2,1,342562,
+2,Balls to the Wall,2,1,342562,141.2
 3,Fast As a Shark,3,1,230619,140.6
 4,Restless and Wild,3,1,252051,179
 5,Princess of the Dawn,3,1,375418,128.4
@@ -75,13 +75,13 @@ ID,Title,Album,Genre,Duration in ms,BPM
 74,Outra Vez,8,2,126511,168.8
 75,O Boto (Bôto),8,2,366837,180.5
 76,"Canta, Canta Mais",8,2,271856,95.5
-77,Enter Sandman,9,3,221701,
+77,Enter Sandman,9,3,221701,174.8
 78,Master Of Puppets,9,3,436453,148.7
-79,Harvester Of Sorrow,9,3,374543,
+79,Harvester Of Sorrow,9,3,374543,140.1
 80,The Unforgiven,9,3,322925,114.4
-81,Sad But True,9,3,288208,
+81,Sad But True,9,3,288208,161.3
 82,Creeping Death,9,3,308035,110.7
-83,Wherever I May Roam,9,3,369345,
+83,Wherever I May Roam,9,3,369345,153.8
 84,Welcome Home (Sanitarium),9,3,350197,95
 85,Cochise,10,1,222380,160.9
 86,Show Me How to Live,10,1,277890,89.9
@@ -111,25 +111,25 @@ ID,Title,Album,Genre,Duration in ms,BPM
 110,The Curse,11,4,309786,124.2
 111,Money,12,5,147591,162.1
 112,Long Tall Sally,12,5,106396,104.1
-113,Bad Boy,12,5,116088,
+113,Bad Boy,12,5,116088,154.7
 114,Twist And Shout,12,5,161123,137.4
 115,Please Mr. Postman,12,5,137639,139.7
 116,C'Mon Everybody,12,5,140199,89.4
 117,Rock 'N' Roll Music,12,5,141923,178.2
 118,Slow Down,12,5,163265,99.6
-119,Roadrunner,12,5,143595,
+119,Roadrunner,12,5,143595,156.1
 120,Carol,12,5,143830,119.8
 121,Good Golly Miss Molly,12,5,106266,187.1
 122,20 Flight Rock,12,5,107807,105.2
 123,Quadrant,13,2,261851,120.9
-124,Snoopy's search-Red baron,13,2,456071,
+124,Snoopy's search-Red baron,13,2,456071,96.5
 125,"Spanish moss-""A sound portrait""-Spanish moss",13,2,248084,144.6
 126,Moon germs,13,2,294060,107.4
 127,Stratus,13,2,582086,164.7
 128,The pleasant pheasant,13,2,318066,121.2
-129,Solo-Panhandler,13,2,246151,
+129,Solo-Panhandler,13,2,246151,154.9
 130,Do what cha wanna,13,2,274155,190.5
-131,Intro/ Low Down,14,3,323683,
+131,Intro/ Low Down,14,3,323683,188.8
 132,13 Years Of Grief,14,3,246987,92.7
 133,Stronger Than Death,14,3,300747,121.6
 134,All For You,14,3,235833,176.7
@@ -143,25 +143,25 @@ ID,Title,Album,Genre,Duration in ms,BPM
 142,No More Tears,14,3,555075,99.6
 143,The Begining... At Last,14,3,365662,91.6
 144,Heart Of Gold,15,3,194873,153.2
-145,Snowblind,15,3,420022,
-146,Like A Bird,15,3,276532,
+145,Snowblind,15,3,420022,132.4
+146,Like A Bird,15,3,276532,146.7
 147,Blood In The Wall,15,3,284368,135.6
 148,The Beginning...At Last,15,3,271960,131.5
 149,Black Sabbath,16,3,382066,116.8
-150,The Wizard,16,3,264829,
+150,The Wizard,16,3,264829,158.1
 151,Behind The Wall Of Sleep,16,3,217573,98.2
 152,N.I.B.,16,3,368770,108.2
 153,Evil Woman,16,3,204930,140.6
-154,Sleeping Village,16,3,644571,
+154,Sleeping Village,16,3,644571,182.7
 155,Warning,16,3,212062,125.3
-156,Wheels Of Confusion / The Straightener,17,3,494524,
-157,Tomorrow's Dream,17,3,192496,
-158,Changes,17,3,286275,
+156,Wheels Of Confusion / The Straightener,17,3,494524,164.7
+157,Tomorrow's Dream,17,3,192496,174.7
+158,Changes,17,3,286275,165.9
 159,FX,17,3,103157,154.6
 160,Supernaut,17,3,285779,135.1
 161,Snowblind,17,3,331676,107.1
 162,Cornucopia,17,3,234814,155
-163,Laguna Sunrise,17,3,173087,
+163,Laguna Sunrise,17,3,173087,134.8
 164,St. Vitus Dance,17,3,149655,150.6
 165,Under The Sun/Every Day Comes and Goes,17,3,350458,128.4
 166,Smoked Pork,18,4,47333,100.8
@@ -182,16 +182,16 @@ ID,Title,Album,Genre,Duration in ms,BPM
 181,Momma's Gotta Die Tonight,18,4,371539,143.6
 182,Freedom Of Speech,18,4,281234,101.8
 183,King In Crimson,19,3,283167,138.4
-184,Chemical Wedding,19,3,246177,
+184,Chemical Wedding,19,3,246177,150.2
 185,The Tower,19,3,285257,102.1
 186,Killing Floor,19,3,269557,122.4
 187,Book Of Thel,19,3,494393,139.3
-188,Gates Of Urizen,19,3,265351,
+188,Gates Of Urizen,19,3,265351,137.4
 189,Jerusalem,19,3,402390,105
-190,Trupets Of Jericho,19,3,359131,
+190,Trupets Of Jericho,19,3,359131,121.8
 191,Machine Men,19,3,341655,90
 192,The Alchemist,19,3,509413,141.3
-193,Realword,19,3,237531,
+193,Realword,19,3,237531,142.3
 194,First Time I Met The Blues,20,6,140434,103.1
 195,Let Me Love You Baby,20,6,175386,123.8
 196,Stone Crazy,20,6,433397,166.7
@@ -267,9 +267,9 @@ ID,Title,Album,Genre,Duration in ms,BPM
 266,Maracatu Atômico [Atomic Version],24,7,273084,95.7
 267,Maracatu Atômico [Ragga Mix],24,7,210155,95.7
 268,Maracatu Atômico [Trip Hop],24,7,221492,95.7
-269,Banditismo Por Uma Questa,25,7,307095,
-270,Banditismo Por Uma Questa,25,7,243644,
-271,Rios Pontes & Overdrives,25,7,286720,
+269,Banditismo Por Uma Questa,25,7,307095,109.3
+270,Banditismo Por Uma Questa,25,7,243644,108.4
+271,Rios Pontes & Overdrives,25,7,286720,126.3
 272,Cidade,25,7,216346,191.4
 273,Praiera,25,7,183640,102.6
 274,Samba Makossa,25,7,271856,168.1
@@ -314,27 +314,27 @@ ID,Title,Album,Genre,Duration in ms,BPM
 313,Noite Do Prazer,28,7,311353,178.2
 314,À Francesa,28,7,244532,118.1
 315,Cada Um Cada Um (A Namoradeira),28,7,253492,109.4
-316,Linha Do Equador,28,7,244715,
+316,Linha Do Equador,28,7,244715,94.7
 317,Amor Demais,28,7,254040,139.7
-318,Férias,28,7,264202,
-319,Gostava Tanto De Você,28,7,230452,
+318,Férias,28,7,264202,124.5
+319,Gostava Tanto De Você,28,7,230452,124
 320,Flor Do Futuro,28,7,275748,101.8
 321,Felicidade Urgente,28,7,266605,100.3
 322,Livre Pra Viver,28,7,214595,114.5
-323,"Dig-Dig, Lambe-Lambe (Ao Vivo)",29,9,205479,
-324,Pererê,29,9,198661,
-325,TriboTchan,29,9,194194,
-326,"Tapa Aqui, Descobre Ali",29,9,188630,
-327,Daniela,29,9,230791,
-328,Bate Lata,29,9,206733,
-329,Garotas do Brasil,29,9,210155,
-330,Levada do Amor (Ailoviu),29,9,190093,
-331,Lavadeira,29,9,214256,
-332,Reboladeira,29,9,210599,
-333,É que Nessa Encarnação Eu Nasci Manga,29,9,196519,
-334,Reggae Tchan,29,9,206654,
+323,"Dig-Dig, Lambe-Lambe (Ao Vivo)",29,9,205479,117
+324,Pererê,29,9,198661,122.1
+325,TriboTchan,29,9,194194,104.2
+326,"Tapa Aqui, Descobre Ali",29,9,188630,108.4
+327,Daniela,29,9,230791,125
+328,Bate Lata,29,9,206733,105.9
+329,Garotas do Brasil,29,9,210155,110.1
+330,Levada do Amor (Ailoviu),29,9,190093,122.1
+331,Lavadeira,29,9,214256,121.2
+332,Reboladeira,29,9,210599,120.6
+333,É que Nessa Encarnação Eu Nasci Manga,29,9,196519,113
+334,Reggae Tchan,29,9,206654,119.1
 335,My Love,29,9,203493,150.9
-336,Latinha de Cerveja,29,9,166687,
+336,Latinha de Cerveja,29,9,166687,110.7
 337,You Shook Me,30,1,315951,154.8
 338,I Can't Quit You Baby,30,1,263836,159
 339,Communication Breakdown,30,1,192653,174.4
@@ -358,51 +358,51 @@ ID,Title,Album,Genre,Duration in ms,BPM
 357,Advance Romance,31,1,677694,126.2
 358,Man With The Woman Head,31,1,88894,122.4
 359,Muffin Man,31,1,332878,129.4
-360,Vai-Vai 2001,32,10,276349,
-361,X-9 2001,32,10,273920,
-362,Gavioes 2001,32,10,282723,
-363,Nene 2001,32,10,284969,
-364,Rosas De Ouro 2001,32,10,284342,
-365,Mocidade Alegre 2001,32,10,282488,
-366,Camisa Verde 2001,32,10,283454,
-367,Leandro De Itaquera 2001,32,10,274808,
-368,Tucuruvi 2001,32,10,287921,
-369,Aguia De Ouro 2001,32,10,284160,
-370,Ipiranga 2001,32,10,248293,
-371,Morro Da Casa Verde 2001,32,10,284708,
-372,Perola Negra 2001,32,10,281626,
-373,Sao Lucas 2001,32,10,296254,
+360,Vai-Vai 2001,32,10,276349,114.8
+361,X-9 2001,32,10,273920,71.2
+362,Gavioes 2001,32,10,282723,125.1
+363,Nene 2001,32,10,284969,76.9
+364,Rosas De Ouro 2001,32,10,284342,121.3
+365,Mocidade Alegre 2001,32,10,282488,76.1
+366,Camisa Verde 2001,32,10,283454,117.1
+367,Leandro De Itaquera 2001,32,10,274808,109.9
+368,Tucuruvi 2001,32,10,287921,89.4
+369,Aguia De Ouro 2001,32,10,284160,98.4
+370,Ipiranga 2001,32,10,248293,84.2
+371,Morro Da Casa Verde 2001,32,10,284708,73.5
+372,Perola Negra 2001,32,10,281626,77.3
+373,Sao Lucas 2001,32,10,296254,119.6
 374,Guanabara,33,7,247614,110
-375,Mas Que Nada,33,7,248398,
-376,Vôo Sobre o Horizonte,33,7,225097,
+375,Mas Que Nada,33,7,248398,101.5
+376,Vôo Sobre o Horizonte,33,7,225097,116.5
 377,A Paz,33,7,263183,125.7
 378,Wave (Vou te Contar),33,7,271647,132.9
 379,Água de Beber,33,7,146677,175.9
-380,Samba da Bençaco,33,7,282200,
-381,Pode Parar,33,7,179408,
-382,Menino do Rio,33,7,262713,
-383,Ando Meio Desligado,33,7,195813,
-384,Mistério da Raça,33,7,184320,
+380,Samba da Bençaco,33,7,282200,107.3
+381,Pode Parar,33,7,179408,121.7
+382,Menino do Rio,33,7,262713,117
+383,Ando Meio Desligado,33,7,195813,98.7
+384,Mistério da Raça,33,7,184320,121.1
 385,All Star,33,7,176326,130.8
-386,Menina Bonita,33,7,237087,
-387,Pescador de Ilusões,33,7,245524,
+386,Menina Bonita,33,7,237087,123.4
+387,Pescador de Ilusões,33,7,245524,123.5
 388,À Vontade (Live Mix),33,7,180636,136
-389,Maria Fumaça,33,7,141008,
-390,Sambassim (dj patife remix),33,7,213655,
+389,Maria Fumaça,33,7,141008,114.5
+390,Sambassim (dj patife remix),33,7,213655,93.8
 391,Garota De Ipanema,34,7,279536,141.6
 392,Tim Tim Por Tim Tim,34,7,213237,153.7
 393,Tarde Em Itapoã,34,7,313704,129.6
-394,Tanto Tempo,34,7,170292,
-395,Eu Vim Da Bahia - Live,34,7,157988,
-396,Alô Alô Marciano,34,7,238106,
-397,Linha Do Horizonte,34,7,279484,
-398,Only A Dream In Rio,34,7,371356,
-399,Abrir A Porta,34,7,271960,
-400,Alice,34,7,165982,
-401,Momentos Que Marcam,34,7,280137,
-402,Um Jantar Pra Dois,34,7,237714,
-403,Bumbo Da Mangueira,34,7,270158,
-404,Mr Funk Samba,34,7,213890,
+394,Tanto Tempo,34,7,170292,121.8
+395,Eu Vim Da Bahia - Live,34,7,157988,93.4
+396,Alô Alô Marciano,34,7,238106,114.4
+397,Linha Do Horizonte,34,7,279484,124.7
+398,Only A Dream In Rio,34,7,371356,112.9
+399,Abrir A Porta,34,7,271960,110
+400,Alice,34,7,165982,125.5
+401,Momentos Que Marcam,34,7,280137,99.9
+402,Um Jantar Pra Dois,34,7,237714,117.2
+403,Bumbo Da Mangueira,34,7,270158,92.8
+404,Mr Funk Samba,34,7,213890,112
 405,Santo Antonio,34,7,162716,123.8
 406,Por Você,34,7,205557,112
 407,Só Tinha De Ser Com Você,34,7,389642,118.5
@@ -418,39 +418,39 @@ ID,Title,Album,Genre,Duration in ms,BPM
 417,Tuesday's Gone,35,3,545750,135.6
 418,The More I See,35,3,287973,94.8
 419,A Kind Of Magic,36,1,262608,133.7
-420,Under Pressure,36,1,236617,
+420,Under Pressure,36,1,236617,107.6
 421,Radio GA GA,36,1,343745,112.3
-422,I Want It All,36,1,241684,
-423,I Want To Break Free,36,1,259108,
-424,Innuendo,36,1,387761,
-425,It's A Hard Life,36,1,249417,
-426,Breakthru,36,1,249234,
+422,I Want It All,36,1,241684,137.6
+423,I Want To Break Free,36,1,259108,133.4
+424,Innuendo,36,1,387761,134.7
+425,It's A Hard Life,36,1,249417,130.5
+426,Breakthru,36,1,249234,107.9
 427,Who Wants To Live Forever,36,1,297691,140.8
-428,Headlong,36,1,273057,
+428,Headlong,36,1,273057,105.3
 429,The Miracle,36,1,294974,92
-430,I'm Going Slightly Mad,36,1,248032,
+430,I'm Going Slightly Mad,36,1,248032,143.5
 431,The Invisible Man,36,1,238994,120
-432,Hammer To Fall,36,1,220316,
+432,Hammer To Fall,36,1,220316,148
 433,Friends Will Be Friends,36,1,248920,150.2
-434,The Show Must Go On,36,1,263784,
-435,One Vision,36,1,242599,
+434,The Show Must Go On,36,1,263784,146.6
+435,One Vision,36,1,242599,112.3
 436,Detroit Rock City,37,1,218880,91.3
 437,Black Diamond,37,1,314148,131.7
-438,Hard Luck Woman,37,1,216032,
+438,Hard Luck Woman,37,1,216032,117.6
 439,Sure Know Something,37,1,242468,113.6
 440,Love Gun,37,1,196257,146.1
 441,Deuce,37,1,185077,126.8
 442,Goin' Blind,37,1,216215,142.1
 443,Shock Me,37,1,227291,128.4
 444,Do You Love Me,37,1,214987,125.7
-445,She,37,1,248346,
+445,She,37,1,248346,129.9
 446,I Was Made For Loving You,37,1,271360,128.4
 447,Shout It Out Loud,37,1,219742,135.1
 448,God Of Thunder,37,1,255791,98.2
 449,Calling Dr. Love,37,1,225332,135.5
 450,Beth,37,1,166974,114.8
 451,Strutter,37,1,192496,131.2
-452,Rock And Roll All Nite,37,1,173609,
+452,Rock And Roll All Nite,37,1,173609,124.7
 453,Cold Gin,37,1,262243,123
 454,Plaster Caster,37,1,207333,138.3
 455,God Gave Rock 'n' Roll To You,37,1,320444,144.1
@@ -489,7 +489,7 @@ ID,Title,Album,Genre,Duration in ms,BPM
 488,Macy's Day Parade,39,4,213420,109.1
 489,Into The Light,40,1,76303,132.8
 490,River Song,40,1,439510,139.9
-491,She Give Me ...,40,1,252551,
+491,She Give Me ...,40,1,252551,149.3
 492,Don't You Cry,40,1,347036,133.7
 493,Love Is Blind,40,1,344999,152
 494,Slave,40,1,291892,170.1
@@ -497,7 +497,7 @@ ID,Title,Album,Genre,Duration in ms,BPM
 496,Living On Love,40,1,391549,154.9
 497,Midnight Blue,40,1,298631,86.9
 498,Too Many Tears,40,1,359497,92.1
-499,Don't Lie To Me,40,1,283585,
+499,Don't Lie To Me,40,1,283585,139.2
 500,Wherever You May Go,40,1,239699,79.7
 501,Grito De Alerta,41,7,202213,95
 502,Não Dá Mais Pra Segurar (Explode Coração),41,7,219768,110
@@ -513,20 +513,20 @@ ID,Title,Album,Genre,Duration in ms,BPM
 512,Comportamento Geral,41,7,181577,123
 513,Ponto De Interrogação,41,7,180950,99.1
 514,"Espere Por Mim, Morena",41,7,207072,103.9
-515,Meia-Lua Inteira,23,7,222093,
-516,Voce e Linda,23,7,242938,
-517,Um Indio,23,7,195944,
-518,Podres Poderes,23,7,259761,
-519,Voce Nao Entende Nada - Cotidiano,23,7,421982,
-520,O Estrangeiro,23,7,374700,
-521,Menino Do Rio,23,7,147670,
-522,Qualquer Coisa,23,7,193410,
+515,Meia-Lua Inteira,23,7,222093,116.3
+516,Voce e Linda,23,7,242938,106.6
+517,Um Indio,23,7,195944,113.6
+518,Podres Poderes,23,7,259761,94.5
+519,Voce Nao Entende Nada - Cotidiano,23,7,421982,100.5
+520,O Estrangeiro,23,7,374700,105.1
+521,Menino Do Rio,23,7,147670,92.6
+522,Qualquer Coisa,23,7,193410,118.3
 523,Sampa,23,7,185051,103.6
-524,Queixa,23,7,299676,
-525,O Leaozinho,23,7,184398,
-526,Fora Da Ordem,23,7,354011,
+524,Queixa,23,7,299676,100.9
+525,O Leaozinho,23,7,184398,101.9
+526,Fora Da Ordem,23,7,354011,121.9
 527,Terra,23,7,401319,156
-528,"Alegria, Alegria",23,7,169221,
+528,"Alegria, Alegria",23,7,169221,90.5
 529,Balada Do Louco,42,4,241057,147.1
 530,Ando Meio Desligado,42,4,287817,128
 531,Top Top,42,4,146938,144.1
@@ -554,20 +554,20 @@ ID,Title,Album,Genre,Duration in ms,BPM
 553,Houses Of The Holy,44,1,242494,123
 554,Trampled Under Foot,44,1,336692,110.8
 555,Kashmir,44,1,508604,160.2
-556,Imperatriz,45,7,339173,
-557,Beija-Flor,45,7,327000,
-558,Viradouro,45,7,344320,
-559,Mocidade,45,7,261720,
-560,Unidos Da Tijuca,45,7,338834,
+556,Imperatriz,45,7,339173,127.3
+557,Beija-Flor,45,7,327000,103.7
+558,Viradouro,45,7,344320,114.3
+559,Mocidade,45,7,261720,112.3
+560,Unidos Da Tijuca,45,7,338834,92.3
 561,Salgueiro,45,7,305920,130
-562,Mangueira,45,7,298318,
-563,União Da Ilha,45,7,330945,
-564,Grande Rio,45,7,307252,
-565,Portela,45,7,319608,
-566,Caprichosos,45,7,351320,
+562,Mangueira,45,7,298318,94.9
+563,União Da Ilha,45,7,330945,109.2
+564,Grande Rio,45,7,307252,108.9
+565,Portela,45,7,319608,120
+566,Caprichosos,45,7,351320,109.5
 567,Tradição,45,7,269165,110.8
-568,Império Serrano,45,7,334942,
-569,Tuiuti,45,7,259657,
+568,Império Serrano,45,7,334942,114.4
+569,Tuiuti,45,7,259657,97.5
 570,(Da Le) Yaleo,46,1,353488,146.1
 571,Love Of My Life,46,1,347820,93.1
 572,Put Your Lights On,46,1,285178,143.6
@@ -623,21 +623,21 @@ ID,Title,Album,Genre,Duration in ms,BPM
 622,Mistreated (Alternate Version),50,1,854700,126.8
 623,You Fool No One (Alternate Version),50,1,763924,134.2
 624,Jeepers Creepers,51,2,185965,159
-625,Blue Rythm Fantasy,51,2,348212,
+625,Blue Rythm Fantasy,51,2,348212,125.6
 626,Drum Boogie,51,2,191555,103.4
 627,Let Me Off Uptown,51,2,187637,151.4
 628,Leave Us Leap,51,2,182726,100.3
-629,Opus No.1,51,2,179800,
+629,Opus No.1,51,2,179800,124.5
 630,Boogie Blues,51,2,204199,124.5
 631,How High The Moon,51,2,201430,105
 632,Disc Jockey Jump,51,2,193149,111.4
-633,Up An' Atom,51,2,179565,
+633,Up An' Atom,51,2,179565,132.6
 634,Bop Boogie,51,2,189596,146.6
-635,Lemon Drop,51,2,194089,
-636,Coronation Drop,51,2,176222,
+635,Lemon Drop,51,2,194089,93.9
+636,Coronation Drop,51,2,176222,155.8
 637,Overtime,51,2,163030,182.1
 638,Imagination,51,2,289306,135.9
-639,Don't Take Your Love From Me,51,2,282331,
+639,Don't Take Your Love From Me,51,2,282331,107.3
 640,Midget,51,2,217025,132.9
 641,I'm Coming Virginia,51,2,280163,143.3
 642,Payin' Them Dues Blues,51,2,198556,105
@@ -645,34 +645,34 @@ ID,Title,Album,Genre,Duration in ms,BPM
 644,Showcase,51,2,201560,144.6
 645,Swedish Schnapps,51,2,191268,117.8
 646,Samba Da Bênção,52,11,409965,123.4
-647,Pot-Pourri N.º 4,52,11,392437,
+647,Pot-Pourri N.º 4,52,11,392437,125.4
 648,Onde Anda Você,52,11,168437,109.7
 649,Samba Da Volta,52,11,170631,127.2
 650,Canto De Ossanha,52,11,204956,196.9
-651,Pot-Pourri N.º 5,52,11,219898,
+651,Pot-Pourri N.º 5,52,11,219898,127
 652,Formosa,52,11,137482,145.6
-653,Como É Duro Trabalhar,52,11,226168,
-654,Minha Namorada,52,11,244297,
-655,Por Que Será,52,11,162142,
+653,Como É Duro Trabalhar,52,11,226168,111.4
+654,Minha Namorada,52,11,244297,114.5
+655,Por Que Será,52,11,162142,118.4
 656,Berimbau,52,11,190667,195
 657,Deixa,52,11,179826,105.2
-658,Pot-Pourri N.º 2,52,11,211748,
+658,Pot-Pourri N.º 2,52,11,211748,119.9
 659,Samba Em Prelúdio,52,11,212636,137.8
 660,Carta Ao Tom 74,52,11,162560,147.7
-661,Linha de Passe (João Bosco),53,7,230948,
-662,Pela Luz dos Olhos Teus (Miúcha e Tom Jobim),53,7,163970,
+661,Linha de Passe (João Bosco),53,7,230948,128.5
+662,Pela Luz dos Olhos Teus (Miúcha e Tom Jobim),53,7,163970,100.2
 663,Chão de Giz (Elba Ramalho),53,7,274834,86.7
 664,Marina (Dorival Caymmi),53,7,172643,163.4
 665,Aquarela (Toquinho),53,7,259944,126.4
-666,Coração do Agreste (Fafá de Belém),53,7,258194,
+666,Coração do Agreste (Fafá de Belém),53,7,258194,103.5
 667,Dona (Roupa Nova),53,7,243356,84.9
-668,Começaria Tudo Outra Vez (Maria Creuza),53,7,206994,
-669,Caçador de Mim (Sá & Guarabyra),53,7,238341,
+668,Começaria Tudo Outra Vez (Maria Creuza),53,7,206994,117.2
+669,Caçador de Mim (Sá & Guarabyra),53,7,238341,122.8
 670,Romaria (Renato Teixeira),53,7,244793,117.1
-671,As Rosas Não Falam (Beth Carvalho),53,7,116767,
+671,As Rosas Não Falam (Beth Carvalho),53,7,116767,121
 672,Wave (Os Cariocas),53,7,130063,128.4
-673,Garota de Ipanema (Dick Farney),53,7,174367,
-674,Preciso Apender a Viver Só (Maysa),53,7,143464,
+673,Garota de Ipanema (Dick Farney),53,7,174367,90.5
+674,Preciso Apender a Viver Só (Maysa),53,7,143464,118.3
 675,Susie Q,54,1,275565,128.4
 676,I Put A Spell On You,54,1,272091,103.1
 677,Proud Mary,54,1,189022,120.2
@@ -694,7 +694,7 @@ ID,Title,Album,Genre,Duration in ms,BPM
 693,Sweet Hitch-Hiker,54,1,175490,142.6
 694,Someday Never Comes,54,1,239360,136.9
 695,Walking On The Water,55,1,281286,134.2
-696,"Suzie-Q, Pt. 2",55,1,244114,
+696,"Suzie-Q, Pt. 2",55,1,244114,144.8
 697,Born On The Bayou,55,1,316630,117.5
 698,Good Golly Miss Molly,55,1,163604,150.3
 699,Tombstone Shadow,55,1,218880,111.1
@@ -719,7 +719,7 @@ ID,Title,Album,Genre,Duration in ms,BPM
 718,Geração Coca-Cola (Ao Vivo),56,7,228153,102.3
 719,Lanterna Dos Afogados,56,7,204538,112
 720,Coroné Antonio Bento,56,7,200437,190.5
-721,"Você Passa, Eu Acho Graça (Ao Vivo)",56,7,206733,
+721,"Você Passa, Eu Acho Graça (Ao Vivo)",56,7,206733,117.9
 722,Meu Mundo Fica Completo (Com Você),56,7,247771,168.1
 723,1° De Julho,56,7,270262,170.1
 724,Música Urbana 2,56,7,194899,108.8
@@ -889,11 +889,11 @@ ID,Title,Album,Genre,Duration in ms,BPM
 888,Madalena,71,7,157387,177.4
 889,Maria Rosa,71,7,232803,164.1
 890,Aprendendo A Jogar,71,7,290664,124.5
-891,Layla,72,6,430733,
+891,Layla,72,6,430733,108.2
 892,Badge,72,6,163552,124.2
 893,I Feel Free,72,6,174576,175.2
 894,Sunshine Of Your Love,72,6,252891,120.8
-895,Crossroads,72,6,253335,
+895,Crossroads,72,6,253335,77
 896,Strange Brew,72,6,167810,106
 897,White Room,72,6,301583,106.3
 898,Bell Bottom Blues,72,6,304744,134.2
@@ -912,15 +912,15 @@ ID,Title,Album,Genre,Duration in ms,BPM
 911,Hey Hey,73,6,196466,153.7
 912,Tears In Heaven,73,6,274729,153.7
 913,Lonely Stranger,73,6,328724,148.2
-914,Nobody Knows You When You're Down & Out,73,6,231836,
-915,Layla,73,6,285387,
-916,Running On Faith,73,6,378984,
+914,Nobody Knows You When You're Down & Out,73,6,231836,88.1
+915,Layla,73,6,285387,119.1
+916,Running On Faith,73,6,378984,87.5
 917,Walkin' Blues,73,6,226429,116.1
 918,Alberta,73,6,222406,111.4
 919,San Francisco Bay Blues,73,6,203363,162.8
 920,Malted Milk,73,6,216528,92.8
-921,Old Love,73,6,472920,
-922,Rollin' And Tumblin',73,6,251768,
+921,Old Love,73,6,472920,119.8
+922,Rollin' And Tumblin',73,6,251768,82
 923,Collision,74,4,204303,139.2
 924,Stripsearch,74,4,270106,136
 925,Last Cup Of Sorrow,74,4,251663,153.7
@@ -1103,22 +1103,22 @@ ID,Title,Album,Genre,Duration in ms,BPM
 1102,Doce De Carnaval (Candy All),87,2,356101,148.7
 1103,Lamento De Carnaval,87,2,294530,162.8
 1104,Pretinha,87,2,265273,182.9
-1105,A Novidade,73,7,324780,
-1106,Tenho Sede,73,7,261616,
-1107,Refazenda,73,7,218305,
+1105,A Novidade,73,7,324780,114.8
+1106,Tenho Sede,73,7,261616,110.1
+1107,Refazenda,73,7,218305,100.7
 1108,Realce,73,7,264489,152.6
-1109,Esotérico,73,7,317779,
-1110,Drão,73,7,301453,
+1109,Esotérico,73,7,317779,102.2
+1110,Drão,73,7,301453,112.4
 1111,A Paz,73,7,293093,191.4
-1112,Beira Mar,73,7,295444,
+1112,Beira Mar,73,7,295444,127
 1113,Sampa,73,7,225697,112.3
-1114,Parabolicamará,73,7,284943,
-1115,Tempo Rei,73,7,302733,
-1116,Expresso 2222,73,7,284760,
-1117,Aquele Abraço,73,7,263993,
-1118,Palco,73,7,270550,
-1119,Toda Menina Baiana,73,7,278177,
-1120,Sítio Do Pica-Pau Amarelo,73,7,218070,
+1114,Parabolicamará,73,7,284943,111.3
+1115,Tempo Rei,73,7,302733,120.4
+1116,Expresso 2222,73,7,284760,92.8
+1117,Aquele Abraço,73,7,263993,114.9
+1118,Palco,73,7,270550,91.8
+1119,Toda Menina Baiana,73,7,278177,110.8
+1120,Sítio Do Pica-Pau Amarelo,73,7,218070,110.3
 1121,Straight Out Of Line,88,3,259213,183.8
 1122,Faceless,88,3,216006,152.6
 1123,Changes,88,3,260022,144.1
@@ -1132,17 +1132,17 @@ ID,Title,Album,Genre,Duration in ms,BPM
 1131,The Awakening,88,3,89547,110.2
 1132,Serenity,88,3,274834,110
 1133,American Idiot,89,4,174419,186.2
-1134,Jesus Of Suburbia / City Of The Damned / I Don't Care / Dearly Beloved / Tales Of Another Broken Home,89,4,548336,
+1134,Jesus Of Suburbia / City Of The Damned / I Don't Care / Dearly Beloved / Tales Of Another Broken Home,89,4,548336,141.3
 1135,Holiday,89,4,232724,146.6
 1136,Boulevard Of Broken Dreams,89,4,260858,166.7
 1137,Are We The Waiting,89,4,163004,138.7
 1138,St. Jimmy,89,4,175307,147.1
 1139,Give Me Novacaine,89,4,205871,153.1
-1140,She's A Rebel,89,4,120528,
+1140,She's A Rebel,89,4,120528,150.1
 1141,Extraordinary Girl,89,4,214021,137.8
 1142,Letterbomb,89,4,246151,187.9
 1143,Wake Me Up When September Ends,89,4,285753,104.9
-1144,Homecoming / The Death Of St. Jimmy / East 12th St. / Nobody Likes You / Rock And Roll Girlfriend / We're Coming Home Again,89,4,558602,
+1144,Homecoming / The Death Of St. Jimmy / East 12th St. / Nobody Likes You / Rock And Roll Girlfriend / We're Coming Home Again,89,4,558602,167.1
 1145,Whatsername,89,4,252316,119.8
 1146,Welcome to the Jungle,90,1,273552,123
 1147,It's So Easy,90,1,202824,150.9
@@ -1186,8 +1186,8 @@ ID,Title,Album,Genre,Duration in ms,BPM
 1185,You Could Be Mine,92,3,343875,150.3
 1186,Don't Cry,92,3,284238,124.5
 1187,My World,92,3,84532,91.9
-1188,Colibri,93,2,361012,
-1189,Love Is The Colour,93,2,251585,
+1188,Colibri,93,2,361012,84.2
+1189,Love Is The Colour,93,2,251585,113.7
 1190,Magnetic Ocean,93,2,321123,90
 1191,Deep Waters,93,2,396460,131.2
 1192,L'Arc En Ciel De Miles,93,2,242390,98
@@ -1268,23 +1268,23 @@ ID,Title,Album,Genre,Duration in ms,BPM
 1267,Fear Of The Dark,99,1,436976,73.8
 1268,01 - Prowler,100,6,236173,139.2
 1269,02 - Sanctuary,100,6,196284,106.3
-1270,03 - Remember Tomorrow,100,6,328620,
+1270,03 - Remember Tomorrow,100,6,328620,92.3
 1271,04 - Running Free,100,6,197276,170.1
 1272,05 - Phantom of the Opera,100,6,428016,173.7
-1273,06 - Transylvania,100,6,259343,
+1273,06 - Transylvania,100,6,259343,88.3
 1274,07 - Strange World,100,6,332460,127.6
-1275,08 - Charlotte the Harlot,100,6,252708,
+1275,08 - Charlotte the Harlot,100,6,252708,96
 1276,09 - Iron Maiden,100,6,216058,154.8
 1277,The Ides Of March,101,13,105926,159.6
 1278,Wrathchild,101,13,174471,104.4
 1279,Murders In The Rue Morgue,101,13,258377,107.1
 1280,Another Life,101,13,203049,185.4
-1281,Genghis Khan,101,13,187141,
+1281,Genghis Khan,101,13,187141,155.4
 1282,Innocent Exile,101,13,232515,133.8
 1283,Killers,101,13,300956,174.4
 1284,Prodigal Son,101,13,372349,133.8
 1285,Purgatory,101,13,200150,143.1
-1286,Drifter,101,13,288757,
+1286,Drifter,101,13,288757,151.1
 1287,Intro- Churchill S Speech,102,13,48013,100.3
 1288,Aces High,102,13,276375,134.2
 1289,2 Minutes To Midnight,102,3,366550,189.7
@@ -1346,7 +1346,7 @@ ID,Title,Album,Genre,Duration in ms,BPM
 1345,2 Minutes To Midnight,107,3,359810,189.7
 1346,Losfer Words,107,3,252891,155.4
 1347,Flash of The Blade,107,3,242729,109.1
-1348,Duelists,107,3,366471,
+1348,Duelists,107,3,366471,140.1
 1349,Back in the Village,107,3,320548,131.2
 1350,Powerslave,107,3,407823,136.9
 1351,Rime of the Ancient Mariner,107,3,816509,113
@@ -1402,7 +1402,7 @@ ID,Title,Album,Genre,Duration in ms,BPM
 1401,Judgement Of Heaven,113,1,312476,176.7
 1402,Blood On The World's Hands,113,1,357799,167.4
 1403,The Edge Of Darkness,113,1,399333,138.7
-1404,2 A.M.,113,1,337658,
+1404,2 A.M.,113,1,337658,108.1
 1405,The Unbeliever,113,1,490422,164.7
 1406,Futureal,114,1,175777,195.9
 1407,The Angel And The Gambler,114,1,592744,162.1
@@ -1420,7 +1420,7 @@ ID,Title,Album,Genre,Duration in ms,BPM
 1419,I Got You (I Feel Good),115,14,167392,144.1
 1420,It's A Man's Man's Man's World,115,14,168228,160.2
 1421,Cold Sweat,115,14,172408,111.7
-1422,"Say It Loud, I'm Black And I'm Proud Pt.1",115,14,167392,
+1422,"Say It Loud, I'm Black And I'm Proud Pt.1",115,14,167392,97.1
 1423,Get Up (I Feel Like Being A) Sex Machine,115,14,316551,108
 1424,Hey America,115,14,218226,125.3
 1425,Make It Funky Pt.1,115,14,196231,107.4
@@ -1446,11 +1446,11 @@ ID,Title,Album,Genre,Duration in ms,BPM
 1445,Planet Home,117,14,284447,121.9
 1446,Black Capricorn Day,117,14,341629,187.9
 1447,Soul Education,117,14,255477,114.1
-1448,Failling,117,14,225227,
-1449,Destitute Illusions,117,14,340218,
-1450,Supersonic,117,14,315872,
-1451,Butterfly,117,14,268852,
-1452,Were Do We Go From Here,117,14,313626,
+1448,Failling,117,14,225227,95.3
+1449,Destitute Illusions,117,14,340218,94.3
+1450,Supersonic,117,14,315872,70.4
+1451,Butterfly,117,14,268852,85.9
+1452,Were Do We Go From Here,117,14,313626,65.8
 1453,King For A Day,117,14,221544,172.3
 1454,Deeper Underground,117,14,281808,104.1
 1455,Just Another Story,118,15,529684,178.2
@@ -1468,7 +1468,7 @@ ID,Title,Album,Genre,Duration in ms,BPM
 1467,Are You Gonna Be My Girl,119,4,213890,104.9
 1468,Rollover D.J.,119,4,196702,133.4
 1469,Look What You've Done,119,4,230974,151.4
-1470,Get What You Need,119,4,247719,
+1470,Get What You Need,119,4,247719,172.2
 1471,Move On,119,4,260623,136
 1472,Radio Song,119,4,272117,136.4
 1473,Get Me Outta Here,119,4,176274,142.6
@@ -1531,19 +1531,19 @@ ID,Title,Album,Genre,Duration in ms,BPM
 1530,Sem Sentido,123,7,250462,96.4
 1531,Onibusfobia,123,7,315977,108
 1532,Pura Elegancia,124,16,284107,155.4
-1533,Choramingando,124,16,190484,
-1534,Por Merecer,124,16,230582,
-1535,No Futuro,124,16,182308,
-1536,Voce Inteira,124,16,241084,
-1537,Cuando A Noite Vai Chegando,124,16,270628,
-1538,Naquele Dia,124,16,251768,
-1539,Equinocio,124,16,269008,
-1540,Papelão,124,16,213263,
-1541,Cuando Eu For Pro Ceu,124,16,118804,
-1542,Do Nosso Amor,124,16,203415,
-1543,Borogodo,124,16,208457,
-1544,Cafezinho,124,16,180924,
-1545,Enquanto O Dia Não Vem,124,16,220891,
+1533,Choramingando,124,16,190484,117.6
+1534,Por Merecer,124,16,230582,85.5
+1535,No Futuro,124,16,182308,131.9
+1536,Voce Inteira,124,16,241084,99.6
+1537,Cuando A Noite Vai Chegando,124,16,270628,91.6
+1538,Naquele Dia,124,16,251768,125.9
+1539,Equinocio,124,16,269008,113.8
+1540,Papelão,124,16,213263,80.4
+1541,Cuando Eu For Pro Ceu,124,16,118804,86.1
+1542,Do Nosso Amor,124,16,203415,127.2
+1543,Borogodo,124,16,208457,107
+1544,Cafezinho,124,16,180924,100.2
+1545,Enquanto O Dia Não Vem,124,16,220891,107.6
 1546,The Green Manalishi,125,3,205792,124.2
 1547,Living After Midnight,125,3,213289,141.1
 1548,Breaking The Law (Live),125,3,144195,88
@@ -1559,7 +1559,7 @@ ID,Title,Album,Genre,Duration in ms,BPM
 1558,Ram It Down,125,3,292179,179.8
 1559,Diamonds And Rust (Live),125,3,219350,134.2
 1560,Victim Of Change (Live),125,3,430942,175.2
-1561,Tyrant (Live),125,3,282253,
+1561,Tyrant (Live),125,3,282253,166.8
 1562,Comin' Home,126,1,172068,132.1
 1563,Plaster Caster,126,1,198060,138.3
 1564,Goin' Blind,126,1,217652,142.1
@@ -1702,11 +1702,11 @@ ID,Title,Album,Genre,Duration in ms,BPM
 1701,Antes Das Seis,140,7,189231,128
 1702,Are You Gonna Go My Way,141,1,211591,134.2
 1703,Fly Away,141,1,221962,160.2
-1704,Rock And Roll Is Dead,141,1,204199,
-1705,Again,141,1,228989,
+1704,Rock And Roll Is Dead,141,1,204199,119.7
+1705,Again,141,1,228989,138.3
 1706,It Ain't Over 'Til It's Over,141,1,242703,159.6
 1707,Can't Get You Off My Mind,141,1,273815,124.2
-1708,Mr. Cab Driver,141,1,230321,
+1708,Mr. Cab Driver,141,1,230321,142.8
 1709,American Woman,141,1,261773,168.1
 1710,Stand By My Woman,141,1,259683,117.1
 1711,Always On The Run,141,1,232515,170.1
@@ -1755,36 +1755,36 @@ ID,Title,Album,Genre,Duration in ms,BPM
 1754,White Feather,144,1,143595,199.7
 1755,Arrepio,145,7,136254,150.1
 1756,Magamalabares,145,7,215875,115.8
-1757,Chuva No Brejo,145,7,145606,
-1758,Cérebro Eletrônico,145,7,172800,
-1759,Tempos Modernos,145,7,183066,
+1757,Chuva No Brejo,145,7,145606,99.9
+1758,Cérebro Eletrônico,145,7,172800,90.8
+1759,Tempos Modernos,145,7,183066,104.4
 1760,Maraçá,145,7,230008,133.3
 1761,Blanco,145,7,45191,83.9
 1762,Panis Et Circenses,145,7,192339,129.2
 1763,De Noite Na Cama,145,7,209005,135.4
-1764,Beija Eu,145,7,197276,
+1764,Beija Eu,145,7,197276,119
 1765,Give Me Love,145,7,249808,90.3
 1766,Ainda Lembro,145,7,218801,90.4
-1767,A Menina Dança,145,7,129410,
+1767,A Menina Dança,145,7,129410,90.5
 1768,Dança Da Solidão,145,7,203520,154.3
 1769,Ao Meu Redor,145,7,275591,126
 1770,Bem Leve,145,7,159190,117.9
 1771,Segue O Seco,145,7,178207,116.8
-1772,O Xote Das Meninas,145,7,291866,
+1772,O Xote Das Meninas,145,7,291866,111.6
 1773,Wherever I Lay My Hat,146,14,136986,122.3
 1774,Get My Hands On Some Lovin',146,14,149054,130.8
 1775,No Good Without You,146,14,161410,103.4
 1776,You've Been A Long Time Coming,146,14,137221,123.8
-1777,When I Had Your Love,146,14,152424,
-1778,You're What's Happening (In The World Today),146,14,142027,
+1777,When I Had Your Love,146,14,152424,86.2
+1778,You're What's Happening (In The World Today),146,14,142027,92.6
 1779,Loving You Is Sweeter Than Ever,146,14,166295,103.9
 1780,It's A Bitter Pill To Swallow,146,14,194821,132.1
 1781,Seek And You Shall Find,146,14,223451,112
-1782,Gonna Keep On Tryin' Till I Win Your Love,146,14,176404,
+1782,Gonna Keep On Tryin' Till I Win Your Love,146,14,176404,77.3
 1783,Gonna Give Her All The Love I've Got,146,14,210886,96.6
 1784,I Wish It Would Rain,146,14,172486,98.6
-1785,"Abraham, Martin And John",146,14,273057,
-1786,Save The Children,146,14,194821,
+1785,"Abraham, Martin And John",146,14,273057,95.9
+1786,Save The Children,146,14,194821,87
 1787,You Sure Love To Ball,146,14,218540,168.1
 1788,Ego Tripping Out,146,14,314514,120.5
 1789,Praise,146,14,235833,116.5
@@ -1804,18 +1804,18 @@ ID,Title,Album,Genre,Duration in ms,BPM
 1803,Holier Than Thou,148,3,227892,86.1
 1804,The Unforgiven,148,3,387082,132.1
 1805,Wherever I May Roam,148,3,404323,139.7
-1806,Don't Tread On Me,148,3,240483,
+1806,Don't Tread On Me,148,3,240483,146.5
 1807,Through The Never,148,3,244375,108.5
 1808,Nothing Else Matters,148,3,388832,145.6
 1809,Of Wolf And Man,148,3,256835,125.7
-1810,The God That Failed,148,3,308610,
-1811,My Friend Of Misery,148,3,409547,
-1812,The Struggle Within,148,3,234240,
+1810,The God That Failed,148,3,308610,181.9
+1811,My Friend Of Misery,148,3,409547,155.5
+1812,The Struggle Within,148,3,234240,145.7
 1813,Helpless,149,3,398315,153.7
 1814,The Small Hours,149,3,403435,90.7
 1815,The Wait,149,3,295418,160.9
 1816,Crash Course In Brain Surgery,149,3,190406,175.2
-1817,Last Caress/Green Hell,149,3,209972,
+1817,Last Caress/Green Hell,149,3,209972,127.6
 1818,Am I Evil?,149,3,470256,157.2
 1819,Blitzkrieg,149,3,216685,198.8
 1820,Breadfan,149,3,341551,102.6
@@ -1837,8 +1837,8 @@ ID,Title,Album,Genre,Duration in ms,BPM
 1836,No Remorse,150,3,386795,95
 1837,Seek & Destroy,150,3,415817,142.1
 1838,Metal Militia,150,3,311327,174.4
-1839,Ain't My Bitch,151,3,304457,
-1840,2 X 4,151,3,328254,
+1839,Ain't My Bitch,151,3,304457,140.5
+1840,2 X 4,151,3,328254,167.2
 1841,The House Jack Built,151,3,398942,94.2
 1842,Until It Sleeps,151,3,269740,126.8
 1843,King Nothing,151,3,328097,111.7
@@ -1846,9 +1846,9 @@ ID,Title,Album,Genre,Duration in ms,BPM
 1845,Bleeding Me,151,3,497998,133.4
 1846,Cure,151,3,294347,107.4
 1847,Poor Twisted Me,151,3,240065,132.3
-1848,Wasted My Hate,151,3,237296,
+1848,Wasted My Hate,151,3,237296,160.2
 1849,Mama Said,151,3,319764,135.7
-1850,Thorn Within,151,3,351738,
+1850,Thorn Within,151,3,351738,187.4
 1851,Ronnie,151,3,317204,129.6
 1852,The Outlaw Torn,151,3,588721,118.1
 1853,Battery,152,3,312424,191.4
@@ -1940,48 +1940,48 @@ ID,Title,Album,Genre,Duration in ms,BPM
 1939,Simples,159,7,133093,151.4
 1940,Norwegian Wood,159,7,413910,97.3
 1941,Caso Você Queira Saber,159,7,205688,161.5
-1942,Ace Of Spades,160,3,169926,
+1942,Ace Of Spades,160,3,169926,117.4
 1943,Love Me Like A Reptile,160,3,203546,107.4
 1944,Shoot You In The Back,160,3,160026,129
-1945,Live To Win,160,3,217626,
+1945,Live To Win,160,3,217626,171.7
 1946,Fast And Loose,160,3,203337,140.6
 1947,(We Are) The Road Crew,160,3,192600,130.1
 1948,Fire Fire,160,3,164675,132.3
-1949,Jailbait,160,3,213916,
+1949,Jailbait,160,3,213916,160.7
 1950,Dance,160,3,158432,139.7
-1951,Bite The Bullet,160,3,98115,
+1951,Bite The Bullet,160,3,98115,181.6
 1952,The Chase Is Better Than The Catch,160,3,258403,135.4
-1953,The Hammer,160,3,168071,
+1953,The Hammer,160,3,168071,143.9
 1954,Dirty Love,160,3,176457,130.5
-1955,Please Don't Touch,160,3,169926,
+1955,Please Don't Touch,160,3,169926,165.4
 1956,Emergency,160,3,180427,123.4
-1957,Kir Royal,161,16,234788,
-1958,O Que Vai Em Meu Coração,161,16,255373,
-1959,Aos Leões,161,16,234684,
-1960,Dois Índios,161,16,219271,
-1961,Noite Negra,161,16,206811,
-1962,Beijo do Olhar,161,16,252682,
-1963,É Fogo,161,16,194873,
-1964,Já Foi,161,16,245681,
-1965,Só Se For Pelo Cabelo,161,16,238288,
-1966,No Clima,161,16,249495,
-1967,A Moça e a Chuva,161,16,274625,
-1968,Demorou!,161,16,39131,
-1969,Bitter Pill,162,3,266814,
+1957,Kir Royal,161,16,234788,81.5
+1958,O Que Vai Em Meu Coração,161,16,255373,119.8
+1959,Aos Leões,161,16,234684,131.8
+1960,Dois Índios,161,16,219271,98.6
+1961,Noite Negra,161,16,206811,129
+1962,Beijo do Olhar,161,16,252682,81.6
+1963,É Fogo,161,16,194873,136.1
+1964,Já Foi,161,16,245681,134.2
+1965,Só Se For Pelo Cabelo,161,16,238288,134.9
+1966,No Clima,161,16,249495,85
+1967,A Moça e a Chuva,161,16,274625,116.3
+1968,Demorou!,161,16,39131,118.8
+1969,Bitter Pill,162,3,266814,181.7
 1970,Enslaved,162,3,269844,106.8
 1971,"Girls, Girls, Girls",162,3,270288,140.2
 1972,Kickstart My Heart,162,3,283559,179.8
 1973,Wild Side,162,3,276767,112
-1974,Glitter,162,3,340114,
-1975,Dr. Feelgood,162,3,282618,
+1974,Glitter,162,3,340114,151.1
+1975,Dr. Feelgood,162,3,282618,178
 1976,Same Ol' Situation,162,3,254511,139.7
 1977,Home Sweet Home,162,3,236904,140.2
-1978,Afraid,162,3,248006,
+1978,Afraid,162,3,248006,136.4
 1979,Don't Go Away Mad (Just Go Away),162,3,279980,118.1
-1980,Without You,162,3,268956,
+1980,Without You,162,3,268956,119.3
 1981,Smokin' in The Boys Room,162,3,206837,147.5
 1982,Primal Scream,162,3,286197,103.4
-1983,Too Fast For Love,162,3,200829,
+1983,Too Fast For Love,162,3,200829,143.8
 1984,Looks That Kill,162,3,240979,144.1
 1985,Shout At The Devil,162,3,221962,99.4
 1986,Intro,163,1,52218,127.2
@@ -2013,20 +2013,20 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2012,Stay Away,164,1,212636,165.4
 2013,On A Plain,164,1,196440,132.5
 2014,Something In The Way,164,1,230556,106.6
-2015,Time,165,1,96888,
-2016,P.S.Apareça,165,1,209188,
-2017,Sangue Latino,165,1,223033,
-2018,Folhas Secas,165,1,161253,
+2015,Time,165,1,96888,112.6
+2016,P.S.Apareça,165,1,209188,102.6
+2017,Sangue Latino,165,1,223033,148.3
+2018,Folhas Secas,165,1,161253,142.3
 2019,Poeira,165,1,267075,139.2
 2020,Mágica,165,1,233743,105
-2021,Quem Mata A Mulher Mata O Melhor,165,1,262791,
-2022,Mundaréu,165,1,217521,
-2023,O Braço Da Minha Guitarra,165,1,258351,
+2021,Quem Mata A Mulher Mata O Melhor,165,1,262791,136.3
+2022,Mundaréu,165,1,217521,131
+2023,O Braço Da Minha Guitarra,165,1,258351,121
 2024,Deus,165,1,284160,119.8
-2025,Mãe Terra,165,1,306625,
-2026,Às Vezes,165,1,330292,
-2027,Menino De Rua,165,1,329795,
-2028,Prazer E Fé,165,1,214831,
+2025,Mãe Terra,165,1,306625,140.3
+2026,Às Vezes,165,1,330292,115.9
+2027,Menino De Rua,165,1,329795,116.1
+2028,Prazer E Fé,165,1,214831,137.9
 2029,Elza,165,1,199105,152
 2030,Requebra,166,7,240744,104.7
 2031,Nossa Gente (Avisa Là),166,7,188212,169.4
@@ -2097,7 +2097,7 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2096,Flying High Again,172,1,290851,124.9
 2097,"Mama, I'm Coming Home",173,1,251586,140.6
 2098,No More Tears,173,1,444358,103.6
-2099,I Don't Know,174,3,283088,
+2099,I Don't Know,174,3,283088,189.8
 2100,Crazy Train,174,3,322716,137.8
 2101,Believer,174,3,308897,100.3
 2102,Mr. Crowley,174,3,344241,107.7
@@ -2111,18 +2111,18 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2110,Goodbye To Romance,174,3,334393,141.1
 2111,No Bone Movies,174,3,249208,130
 2112,Dee,174,3,261302,135.1
-2113,Shining In The Light,175,1,240796,
+2113,Shining In The Light,175,1,240796,144.4
 2114,When The World Was Young,175,1,373394,113
 2115,Upon A Golden Horse,175,1,232359,122.7
-2116,Blue Train,175,1,405028,
-2117,Please Read The Letter,175,1,262112,
-2118,Most High,175,1,336535,
-2119,Heart In Your Hand,175,1,230896,
-2120,Walking Into Clarksdale,175,1,318511,
-2121,Burning Up,175,1,321619,
-2122,When I Was A Child,175,1,345626,
+2116,Blue Train,175,1,405028,121.3
+2117,Please Read The Letter,175,1,262112,102.7
+2118,Most High,175,1,336535,127.1
+2119,Heart In Your Hand,175,1,230896,136.6
+2120,Walking Into Clarksdale,175,1,318511,149.4
+2121,Burning Up,175,1,321619,115.7
+2122,When I Was A Child,175,1,345626,129.9
 2123,House Of Love,175,1,335699,122.7
-2124,Sons Of Freedom,175,1,246465,
+2124,Sons Of Freedom,175,1,246465,110.3
 2125,United Colours,176,10,330266,123.4
 2126,Slug,176,10,281469,149.8
 2127,Your Blue Room,176,10,328228,170.1
@@ -2176,16 +2176,16 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2175,Army Reserve,179,4,225567,179.8
 2176,Come Back,179,4,329743,166.7
 2177,Inside Job,179,4,428643,102.1
-2178,Can't Keep,180,1,219428,
+2178,Can't Keep,180,1,219428,125.3
 2179,Save You,180,1,230112,160.9
 2180,Love Boat Captain,180,1,276453,124.5
 2181,Cropduster,180,1,231888,124.4
-2182,Ghost,180,1,195108,
+2182,Ghost,180,1,195108,113
 2183,I Am Mine,180,1,215719,178.2
 2184,Thumbing My Way,180,1,250226,107.9
 2185,You Are,180,1,270863,96
 2186,Get Right,180,1,158589,148.7
-2187,Green Disease,180,1,161253,
+2187,Green Disease,180,1,161253,147.1
 2188,Help Help,180,1,215092,90
 2189,Bushleager,180,1,237479,106.3
 2190,1/2 Full,180,1,251010,152.4
@@ -2214,25 +2214,25 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2213,Elderly Woman Behind The Counter In A Small Town,182,1,196336,120.5
 2214,Leash,182,1,189257,103.4
 2215,Indifference,182,1,302053,103.1
-2216,Johnny B. Goode,141,8,243200,
-2217,Don't Look Back,141,8,221100,
-2218,Jah Seh No,141,8,276871,
-2219,I'm The Toughest,141,8,230191,
-2220,Nothing But Love,141,8,221570,
-2221,Buk-In-Hamm Palace,141,8,265665,
-2222,Bush Doctor,141,8,239751,
-2223,Wanted Dread And Alive,141,8,260310,
-2224,Mystic Man,141,8,353671,
-2225,Coming In Hot,141,8,213054,
-2226,Pick Myself Up,141,8,234684,
-2227,Crystal Ball,141,8,309733,
-2228,Equal Rights Downpresser Man,141,8,366733,
+2216,Johnny B. Goode,141,8,243200,79.7
+2217,Don't Look Back,141,8,221100,98.8
+2218,Jah Seh No,141,8,276871,83.4
+2219,I'm The Toughest,141,8,230191,97.1
+2220,Nothing But Love,141,8,221570,73.9
+2221,Buk-In-Hamm Palace,141,8,265665,78.8
+2222,Bush Doctor,141,8,239751,70.4
+2223,Wanted Dread And Alive,141,8,260310,85.1
+2224,Mystic Man,141,8,353671,99.3
+2225,Coming In Hot,141,8,213054,78
+2226,Pick Myself Up,141,8,234684,96.8
+2227,Crystal Ball,141,8,309733,97.2
+2228,Equal Rights Downpresser Man,141,8,366733,71.7
 2229,Speak To Me/Breathe,183,1,234213,134.7
 2230,On The Run,183,1,214595,165.2
-2231,Time,183,1,425195,
-2232,The Great Gig In The Sky,183,1,284055,
+2231,Time,183,1,425195,147.4
+2232,The Great Gig In The Sky,183,1,284055,149.8
 2233,Money,183,1,391888,135.6
-2234,Us And Them,183,1,461035,
+2234,Us And Them,183,1,461035,136.3
 2235,Any Colour You Like,183,1,205740,150.9
 2236,Brain Damage,183,1,230556,132.6
 2237,Eclipse,183,1,125361,136.4
@@ -2257,32 +2257,32 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2256,Killer Queen,185,1,182099,122.1
 2257,Fat Bottomed Girls,185,1,204695,95.4
 2258,Bicycle Race,185,1,183823,165.3
-2259,You're My Best Friend,185,1,172225,
-2260,Don't Stop Me Now,185,1,211826,
-2261,Save Me,185,1,228832,
-2262,Crazy Little Thing Called Love,185,1,164231,
+2259,You're My Best Friend,185,1,172225,143.7
+2260,Don't Stop Me Now,185,1,211826,136.2
+2261,Save Me,185,1,228832,111.4
+2262,Crazy Little Thing Called Love,185,1,164231,143.5
 2263,Somebody To Love,185,1,297351,108.8
 2264,Now I'm Here,185,1,255346,149
-2265,Good Old-Fashioned Lover Boy,185,1,175960,
+2265,Good Old-Fashioned Lover Boy,185,1,175960,139
 2266,Play The Game,185,1,213368,164.8
-2267,Flash,185,1,168489,
-2268,Seven Seas Of Rhye,185,1,170553,
-2269,We Will Rock You,185,1,122880,
+2267,Flash,185,1,168489,110.1
+2268,Seven Seas Of Rhye,185,1,170553,111.4
+2269,We Will Rock You,185,1,122880,141.6
 2270,We Are The Champions,185,1,180950,99.4
-2271,We Will Rock You,186,1,122671,
+2271,We Will Rock You,186,1,122671,143.6
 2272,We Are The Champions,186,1,182883,99.4
-2273,Sheer Heart Attack,186,1,207386,
+2273,Sheer Heart Attack,186,1,207386,147.8
 2274,"All Dead, All Dead",186,1,190119,130
 2275,Spread Your Wings,186,1,275356,172.3
 2276,Fight From The Inside,186,1,184737,93.5
-2277,"Get Down, Make Love",186,1,231235,
-2278,Sleep On The Sidewalk,186,1,187428,
+2277,"Get Down, Make Love",186,1,231235,129.6
+2278,Sleep On The Sidewalk,186,1,187428,138.1
 2279,Who Needs You,186,1,186958,123
-2280,It's Late,186,1,386194,
-2281,My Melancholy Blues,186,1,206471,
-2282,Shiny Happy People,187,4,226298,
-2283,Me In Honey,187,4,246674,
-2284,Radio Song,187,4,255477,
+2280,It's Late,186,1,386194,131
+2281,My Melancholy Blues,186,1,206471,107
+2282,Shiny Happy People,187,4,226298,175.1
+2283,Me In Honey,187,4,246674,132.1
+2284,Radio Song,187,4,255477,141.6
 2285,Pop Song 89,188,4,185730,128
 2286,Get Up,188,4,160235,118.1
 2287,You Are The Everything,188,4,226298,152.6
@@ -2302,22 +2302,22 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2301,Leave,189,1,437968,94.2
 2302,Departure,189,1,209423,134.2
 2303,Bittersweet Me,189,1,245812,120.7
-2304,Be Mine,189,1,333087,
+2304,Be Mine,189,1,333087,128.7
 2305,Binky The Doormat,189,1,301688,110.5
 2306,Zither,189,1,154148,138.7
 2307,"So Fast, So Numb",189,1,252682,111.4
 2308,Low Desert,189,1,212062,165.7
 2309,Electrolite,189,1,245315,122.3
-2310,Losing My Religion,187,4,269035,
-2311,Low,187,4,296777,
-2312,Near Wild Heaven,187,4,199862,
-2313,Endgame,187,4,230687,
-2314,Belong,187,4,247013,
-2315,Half A World Away,187,4,208431,
-2316,Texarkana,187,4,220081,
-2317,Country Feedback,187,4,249782,
+2310,Losing My Religion,187,4,269035,179.6
+2311,Low,187,4,296777,127.2
+2312,Near Wild Heaven,187,4,199862,151.1
+2313,Endgame,187,4,230687,163
+2314,Belong,187,4,247013,129
+2315,Half A World Away,187,4,208431,154.1
+2316,Texarkana,187,4,220081,152.3
+2317,Country Feedback,187,4,249782,127.2
 2318,Carnival Of Sorts,190,4,233482,171.6
-2319,Radio Free Aurope,190,4,245315,
+2319,Radio Free Aurope,190,4,245315,134.6
 2320,Perfect Circle,190,4,208509,117.1
 2321,Talk About The Passion,190,4,203206,132.5
 2322,So Central Rain,190,4,194768,141.6
@@ -2347,12 +2347,12 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2346,No Fundo Do Quintal Da Escola,192,1,177606,130.8
 2347,O Segredo Do Universo,192,1,192679,139.7
 2348,As Profecias,192,1,232515,132.9
-2349,Mata Virgem,192,1,142602,
+2349,Mata Virgem,192,1,142602,140.4
 2350,Sapato 36,192,1,196702,174.4
 2351,Todo Mundo Explica,192,1,134896,148.7
 2352,Que Luz É Essa,192,1,165067,132.1
 2353,Diamante De Mendigo,192,1,206053,101.6
-2354,Negócio É,192,1,175464,
+2354,Negócio É,192,1,175464,128.6
 2355,"Muita Estrela, Pouca Constelação",192,1,268068,142.1
 2356,Século XXI,192,1,244897,107.4
 2357,Rock Das Aranhas (Ao Vivo) (Live),192,1,231836,175.2
@@ -2412,12 +2412,12 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2411,Bastille Day,196,1,280528,101.8
 2412,By-Tor And The Snow Dog,196,1,519888,155.4
 2413,Anthem,196,1,264515,148.7
-2414,Closer To The Heart,196,1,175412,
+2414,Closer To The Heart,196,1,175412,104.1
 2415,2112 Overture,196,1,272718,131.7
 2416,The Temples Of Syrinx,196,1,133459,131.2
 2417,La Villa Strangiato,196,1,577488,141.1
 2418,Fly By Night,196,1,202318,141.1
-2419,Finding My Way,196,1,305528,
+2419,Finding My Way,196,1,305528,130
 2420,Jingo,197,1,592953,125.7
 2421,El Corazon Manda,197,1,713534,113
 2422,La Puesta Del Sol,197,1,628062,118.1
@@ -2432,21 +2432,21 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2431,Just Ain't Good Enough,198,1,850259,99.9
 2432,Funky Piano,198,1,934791,148.2
 2433,The Way You Do To Mer,198,1,618344,138.3
-2434,Holding Back The Years,141,1,270053,
-2435,Money's Too Tight To Mention,141,1,268408,
-2436,The Right Thing,141,1,262687,
-2437,It's Only Love,141,1,232594,
-2438,A New Flame,141,1,237662,
-2439,You've Got It,141,1,235232,
-2440,If You Don't Know Me By Now,141,1,206524,
+2434,Holding Back The Years,141,1,270053,104.1
+2435,Money's Too Tight To Mention,141,1,268408,149.4
+2436,The Right Thing,141,1,262687,137.6
+2437,It's Only Love,141,1,232594,110.5
+2438,A New Flame,141,1,237662,133.7
+2439,You've Got It,141,1,235232,112.6
+2440,If You Don't Know Me By Now,141,1,206524,110.3
 2441,Stars,141,1,248137,117.1
-2442,Something Got Me Started,141,1,239595,
-2443,Thrill Me,141,1,303934,
-2444,Your Mirror,141,1,240666,
-2445,For Your Babies,141,1,256992,
+2442,Something Got Me Started,141,1,239595,108.8
+2443,Thrill Me,141,1,303934,140.6
+2444,Your Mirror,141,1,240666,145.1
+2445,For Your Babies,141,1,256992,124.5
 2446,So Beautiful,141,1,298083,153.7
 2447,Angel,141,1,240561,131.7
-2448,Fairground,141,1,263888,
+2448,Fairground,141,1,263888,148.6
 2449,Água E Fogo,199,1,278987,132.9
 2450,Três Lados,199,1,233665,130
 2451,Ela Desapareceu,199,1,250122,99.9
@@ -2470,20 +2470,20 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2469,Los Pretos,200,1,239229,100.1
 2470,Sul Da América,200,1,254928,140.6
 2471,Poconé,200,1,318406,159.6
-2472,Lucky 13,201,4,189387,
+2472,Lucky 13,201,4,189387,123
 2473,Aeroplane Flies High,201,4,473391,126.8
-2474,Because You Are,201,4,226403,
+2474,Because You Are,201,4,226403,185.4
 2475,Slow Dawn,201,4,192339,162.6
 2476,Believe,201,4,192940,109
-2477,My Mistake,201,4,240901,
+2477,My Mistake,201,4,240901,121.1
 2478,Marquis In Spades,201,4,192731,168.8
 2479,Here's To The Atom Bomb,201,4,266893,119.3
 2480,Sparrow,201,4,176822,96
 2481,Waiting,201,4,228336,106.1
-2482,Saturnine,201,4,229877,
+2482,Saturnine,201,4,229877,151.4
 2483,Rock On,201,4,366471,99.3
 2484,Set The Ray To Jerry,201,4,249364,96
-2485,Winterlong,201,4,299389,
+2485,Winterlong,201,4,299389,130.6
 2486,Soot & Stars,201,4,399986,131.8
 2487,Blissed & Gone,201,4,286302,100.1
 2488,Siva,202,4,261172,110.8
@@ -2502,13 +2502,13 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2501,Perfect,202,4,203023,114.2
 2502,The Everlasting Gaze,202,4,242155,144.1
 2503,Stand Inside Your Love,202,4,253753,137.8
-2504,Real Love,202,4,250697,
+2504,Real Love,202,4,250697,174.4
 2505,[Untitled],202,4,231784,130.8
 2506,Nothing To Say,203,1,238027,113.9
 2507,Flower,203,1,208822,191.4
 2508,Loud Love,203,1,297456,130.2
 2509,Hands All Over,203,1,362475,184.6
-2510,Get On The Snake,203,1,225123,
+2510,Get On The Snake,203,1,225123,113.4
 2511,Jesus Christ Pose,203,1,352966,134.2
 2512,Outshined,203,1,312476,94.8
 2513,Rusty Cage,203,1,267728,101.8
@@ -2527,7 +2527,7 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2526,Song For Lorraine,204,2,240091,111.1
 2527,Starburst,204,2,291500,132.6
 2528,Heliopolis,204,2,338729,105.1
-2529,It Doesn't Matter,204,2,270027,
+2529,It Doesn't Matter,204,2,270027,134.3
 2530,Little Linda,204,2,264019,136.1
 2531,End Of Romanticism,204,2,320078,154.9
 2532,The House Is Rockin',205,6,144352,172.3
@@ -2563,13 +2563,13 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2562,Sad Statue,207,3,205897,169.4
 2563,Old School Hollywood,207,3,176953,162.1
 2564,Lost in Hollywood,207,3,320783,152
-2565,The Sun Road,208,1,880640,
-2566,Dark Corners,208,1,513541,
-2567,Duende,208,1,447582,
-2568,Black Light Syndrome,208,1,526471,
-2569,Falling in Circles,208,1,549093,
-2570,Book of Hours,208,1,583366,
-2571,Chaos-Control,208,1,529841,
+2565,The Sun Road,208,1,880640,103.2
+2566,Dark Corners,208,1,513541,149.5
+2567,Duende,208,1,447582,135.8
+2568,Black Light Syndrome,208,1,526471,121.8
+2569,Falling in Circles,208,1,549093,135.9
+2570,Book of Hours,208,1,583366,146.4
+2571,Chaos-Control,208,1,529841,138.6
 2572,Midnight From The Inside Out,209,6,286981,147.1
 2573,Sting Me,209,6,268094,129.6
 2574,Thick & Thin,209,6,222720,98.2
@@ -2620,23 +2620,23 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2619,True Believers,212,1,308009,157.2
 2620,My Bridges Burn,212,1,231862,146.1
 2621,She Sells Sanctuary,213,1,253727,139.7
-2622,Fire Woman,213,1,312790,
-2623,Lil' Evil,213,1,165825,
+2622,Fire Woman,213,1,312790,133.6
+2623,Lil' Evil,213,1,165825,113.4
 2624,Spirit Walker,213,1,230060,144.1
 2625,The Witch,213,1,258768,101.3
-2626,Revolution,213,1,256026,
+2626,Revolution,213,1,256026,106.4
 2627,Wild Hearted Son,213,1,266893,131.4
-2628,Love Removal Machine,213,1,257619,
-2629,Rain,213,1,236669,
-2630,Edie (Ciao Baby),213,1,241632,
+2628,Love Removal Machine,213,1,257619,132.8
+2629,Rain,213,1,236669,107.8
+2630,Edie (Ciao Baby),213,1,241632,138.5
 2631,Heart Of Soul,213,1,274207,90
-2632,Love,213,1,326739,
-2633,Wild Flower,213,1,215536,
+2632,Love,213,1,326739,121
+2633,Wild Flower,213,1,215536,139.2
 2634,Go West,213,1,238158,141.6
 2635,Resurrection Joe,213,1,255451,122.9
 2636,Sun King,213,1,368431,129.1
-2637,Sweet Soul Sister,213,1,212009,
-2638,Earth Mofo,213,1,282200,
+2637,Sweet Soul Sister,213,1,212009,120.3
+2638,Earth Mofo,213,1,282200,122.2
 2639,Break on Through,214,1,149342,177.4
 2640,Soul Kitchen,214,1,215066,116.8
 2641,The Crystal Ship,214,1,154853,91.5
@@ -2663,8 +2663,8 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2662,Don't Stand So Close to Me '86,215,1,293590,140.2
 2663,Message in a Bottle (new classic rock mix),215,1,290951,150.9
 2664,Time Is On My Side,216,1,179983,107.9
-2665,Heart Of Stone,216,1,164493,
-2666,Play With Fire,216,1,132022,
+2665,Heart Of Stone,216,1,164493,119.6
+2666,Play With Fire,216,1,132022,104.1
 2667,Satisfaction,216,1,226612,136.4
 2668,As Tears Go By,216,1,164284,109.4
 2669,Get Off Of My Cloud,216,1,176013,125.7
@@ -2716,19 +2716,19 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2715,The River (Remix),219,4,343170,110.5
 2716,Babylon,219,4,169795,161.7
 2717,Waiting On A Sign,219,4,261903,160.2
-2718,Life Line,219,4,277786,
+2718,Life Line,219,4,277786,136.6
 2719,Paint It Black,219,4,214752,160.2
 2720,Temptation,220,4,205244,100.1
-2721,Army Ants,220,4,215405,
+2721,Army Ants,220,4,215405,153.2
 2722,Psychopomp,220,4,317231,168.1
 2723,Gyroscope,220,4,177711,97.9
 2724,Alarum,220,4,298187,119.9
 2725,Release,220,4,266292,152
 2726,Transmission,220,4,317257,108
-2727,Babylon,220,4,292466,
-2728,Pulse,220,4,250253,
+2727,Babylon,220,4,292466,165.5
+2728,Pulse,220,4,250253,171.3
 2729,Emerald,220,4,289750,172.3
-2730,Aftermath,220,4,343745,
+2730,Aftermath,220,4,343745,160.9
 2731,I Can't Explain,221,1,125152,138.3
 2732,"Anyway, Anyhow, Anywhere",221,1,161253,138.3
 2733,My Generation,221,1,197825,193.2
@@ -2743,10 +2743,10 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2742,The Seeker,221,1,204643,180.5
 2743,Baba O'Riley,221,1,309472,115.2
 2744,Won't Get Fooled Again (Full Length Version),221,1,513750,135.1
-2745,Let's See Action,221,1,243513,
+2745,Let's See Action,221,1,243513,103.5
 2746,5.15,221,1,289619,127.6
 2747,Join Together,221,1,262556,167.4
-2748,Squeeze Box,221,1,161280,
+2748,Squeeze Box,221,1,161280,111.6
 2749,Who Are You (Single Edit Version),221,1,299232,156.6
 2750,You Better You Bet,221,1,338520,161.5
 2751,Primavera,222,7,126615,150.3
@@ -2764,7 +2764,7 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2763,Compadre,222,7,171389,149.8
 2764,Over Again,222,7,200489,182.9
 2765,Réu Confesso,222,7,217391,179
-2766,O Que Me Importa,223,7,153155,
+2766,O Que Me Importa,223,7,153155,112.6
 2767,Gostava Tanto De Você,223,7,253805,179.8
 2768,Você,223,7,242599,142.1
 2769,Não Quero Dinheiro,223,7,152607,138.7
@@ -2773,12 +2773,12 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2772,I Don't Know What To Do With Myself,223,7,221387,195
 2773,Padre Cícero,223,7,139598,157.8
 2774,Nosso Adeus,223,7,206471,111.1
-2775,Canário Do Reino,223,7,139337,
+2775,Canário Do Reino,223,7,139337,103.2
 2776,Preciso Ser Amado,223,7,174001,126.8
 2777,Balanço,223,7,209737,181.3
 2778,Preciso Aprender A Ser Só,223,7,162220,120.9
 2779,Esta É A Canção,223,7,184450,98
-2780,Formigueiro,223,7,252943,
+2780,Formigueiro,223,7,252943,102.1
 2781,Comida,224,4,322612,116.1
 2782,Go Back,224,4,230504,168.1
 2783,Prá Dizer Adeus,224,4,222484,126.4
@@ -2892,7 +2892,7 @@ ID,Title,Album,Genre,Duration in ms,BPM
 2998,When Love Comes To Town,237,1,255869,115.8
 2999,Heartland,237,1,303360,108.2
 3000,God Part II,237,1,195604,112
-3001,The Star Spangled Banner,237,1,43232,
+3001,The Star Spangled Banner,237,1,43232,127.9
 3002,Bullet The Blue Sky,237,1,337005,152
 3003,All I Want Is You,237,1,390243,186.2
 3004,Pride (In The Name Of Love),238,1,230243,209.9
@@ -2995,18 +2995,18 @@ ID,Title,Album,Genre,Duration in ms,BPM
 3101,Primary,245,1,86987,125.3
 3102,Ballot or the Bullet,245,1,342282,199.7
 3103,How Many Say I,245,1,363937,174.4
-3104,Sucker Train Blues,246,1,267859,
-3105,Do It For The Kids,246,1,235911,
+3104,Sucker Train Blues,246,1,267859,121.9
+3105,Do It For The Kids,246,1,235911,109.5
 3106,Big Machine,246,1,265613,144.6
 3107,Illegal I Song,246,1,257750,98.2
 3108,Spectacle,246,1,221701,166.6
-3109,Fall To Pieces,246,1,270889,
+3109,Fall To Pieces,246,1,270889,124.8
 3110,Headspace,246,1,223033,126.3
 3111,Superhuman,246,1,255921,120.8
 3112,Set Me Free,246,1,247954,166
 3113,You Got No Right,246,1,335412,141
-3114,Slither,246,1,248398,
-3115,Dirty Little Thing,246,1,237844,
+3114,Slither,246,1,248398,106.1
+3115,Dirty Little Thing,246,1,237844,116.3
 3116,Loving The Alien,246,1,348786,172.3
 3117,Pela Luz Dos Olhos Teus,247,7,119196,158.4
 3118,A Bencao E Outros,247,7,421093,140.6
@@ -3014,29 +3014,29 @@ ID,Title,Album,Genre,Duration in ms,BPM
 3120,O Velho E Aflor,247,7,275121,138.3
 3121,Cotidiano N 2,247,7,55902,108.8
 3122,Adeus,247,7,221884,172.3
-3123,Samba Pra Endrigo,247,7,259265,
+3123,Samba Pra Endrigo,247,7,259265,122.4
 3124,So Por Amor,247,7,236591,150.9
 3125,Meu Pranto Rolou,247,7,181760,158.4
 3126,Mulher Carioca,247,7,191686,187.9
 3127,Um Homem Chamado Alfredo,247,7,151640,117.5
 3128,Samba Do Jato,247,7,220813,159.6
 3129,"Oi, La",247,7,167053,151.4
-3130,"Vinicius, Poeta Do Encontro",247,7,336431,
+3130,"Vinicius, Poeta Do Encontro",247,7,336431,102
 3131,Soneto Da Separacao,247,7,193880,133.4
-3132,Still Of The Night,141,3,398210,
-3133,Here I Go Again,141,3,233874,
-3134,Is This Love,141,3,283924,
-3135,Love Ain't No Stranger,141,3,259395,
-3136,Looking For Love,141,3,391941,
-3137,Now You're Gone,141,3,251141,
-3138,Slide It In,141,3,202475,
-3139,Slow An' Easy,141,3,367255,
-3140,Judgement Day,141,3,317074,
-3141,You're Gonna Break My Hart Again,141,3,250853,
-3142,The Deeper The Love,141,3,262791,
-3143,Crying In The Rain,141,3,337005,
-3144,Fool For Your Loving,141,3,250801,
-3145,Sweet Lady Luck,141,3,273737,
+3132,Still Of The Night,141,3,398210,128.7
+3133,Here I Go Again,141,3,233874,164.6
+3134,Is This Love,141,3,283924,182.1
+3135,Love Ain't No Stranger,141,3,259395,133.1
+3136,Looking For Love,141,3,391941,166.5
+3137,Now You're Gone,141,3,251141,188.8
+3138,Slide It In,141,3,202475,173.7
+3139,Slow An' Easy,141,3,367255,133.7
+3140,Judgement Day,141,3,317074,117.1
+3141,You're Gonna Break My Hart Again,141,3,250853,151.9
+3142,The Deeper The Love,141,3,262791,148.1
+3143,Crying In The Rain,141,3,337005,180.3
+3144,Fool For Your Loving,141,3,250801,153.5
+3145,Sweet Lady Luck,141,3,273737,135.8
 3146,Faixa Amarela,248,7,240692,102.8
 3147,Posso Até Me Apaixonar,248,7,200698,96.8
 3148,Não Sou Mais Disso,248,7,225985,110.8
@@ -3045,7 +3045,7 @@ ID,Title,Album,Genre,Duration in ms,BPM
 3151,Seu Balancê,248,7,219454,94.2
 3152,Vai Adiar,248,7,270393,115.5
 3153,Rugas,248,7,140930,112
-3154,Feirinha da Pavuna/Luz do Repente/Bagaço da Laranja,248,7,107206,
+3154,Feirinha da Pavuna/Luz do Repente/Bagaço da Laranja,248,7,107206,126.5
 3155,Sem Essa de Malandro Agulha,248,7,158484,97
 3156,Chico Não Vai na Corimba,248,7,269374,110.5
 3157,Papel Principal,248,7,217495,182.9
@@ -3058,44 +3058,44 @@ ID,Title,Album,Genre,Duration in ms,BPM
 3164,Verdade,248,7,332826,104.4
 3225,Your Time Is Gonna Come,252,1,310774,140.6
 3253,Instant Karma,255,9,193188,118.1
-3254,#9 Dream,255,9,278312,
+3254,#9 Dream,255,9,278312,118
 3255,Mother,255,9,287740,103.6
-3256,Give Peace a Chance,255,9,274644,
-3257,Cold Turkey,255,9,281424,
-3258,Whatever Gets You Thru the Night,255,9,215084,
+3256,Give Peace a Chance,255,9,274644,107.1
+3257,Cold Turkey,255,9,281424,112.8
+3258,Whatever Gets You Thru the Night,255,9,215084,106.5
 3259,I'm Losing You,255,9,240719,97.5
-3260,Gimme Some Truth,255,9,232778,
-3261,"Oh, My Love",255,9,159473,
+3260,Gimme Some Truth,255,9,232778,101
+3261,"Oh, My Love",255,9,159473,119.3
 3262,Imagine,255,9,192329,151.4
-3263,Nobody Told Me,255,9,210348,
+3263,Nobody Told Me,255,9,210348,103.6
 3264,Jealous Guy,255,9,239094,130.4
-3265,Working Class Hero,255,9,265449,
-3266,Power to the People,255,9,213018,
+3265,Working Class Hero,255,9,265449,124.9
+3266,Power to the People,255,9,213018,112.4
 3267,Imagine,255,9,219078,151.4
 3268,Beautiful Boy,255,9,227995,136
 3269,Isolation,255,9,156059,97
-3270,Watching the Wheels,255,9,198645,
-3271,Grow Old With Me,255,9,149093,
-3272,Gimme Some Truth,255,9,187546,
+3270,Watching the Wheels,255,9,198645,128.1
+3271,Grow Old With Me,255,9,149093,114.9
+3272,Gimme Some Truth,255,9,187546,114.5
 3273,[Just Like] Starting Over,255,9,215549,110.2
 3274,God,255,9,260410,112
 3275,Real Love,255,9,236911,137.8
-3276,Sympton of the Universe,256,1,340890,
+3276,Sympton of the Universe,256,1,340890,121.3
 3277,Snowblind,256,1,295960,133.7
 3278,Black Sabbath,256,1,364180,137.8
-3279,Fairies Wear Boots,256,1,392764,
+3279,Fairies Wear Boots,256,1,392764,115
 3280,War Pigs,256,1,515435,106.8
-3281,The Wizard,256,1,282678,
+3281,The Wizard,256,1,282678,111.1
 3282,N.I.B.,256,1,335248,108.7
 3283,Sweet Leaf,256,1,354706,154.8
-3284,Never Say Die,256,1,258343,
+3284,Never Say Die,256,1,258343,127.8
 3285,"Sabbath, Bloody Sabbath",256,1,333622,127.2
-3286,Iron Man/Children of the Grave,256,1,552308,
+3286,Iron Man/Children of the Grave,256,1,552308,119.4
 3287,Paranoid,256,1,189171,170.8
 3288,Rock You Like a Hurricane,257,1,255766,124.2
 3289,No One Like You,257,1,240325,116.1
 3290,The Zoo,257,1,332740,102.1
-3291,Loving You Sunday Morning,257,1,339125,
+3291,Loving You Sunday Morning,257,1,339125,108.8
 3292,Still Loving You,257,1,390674,104.9
 3293,Big City Nights,257,1,251865,124.2
 3294,Believe in Love,257,1,325774,132.4
@@ -3125,47 +3125,47 @@ ID,Title,Album,Genre,Duration in ms,BPM
 3318,Shamrocks And Shenanigans (Boom Shalock Lock Boom/Butch Vig Mix),258,17,237035,100.1
 3319,Instinto Colectivo,259,15,300564,104.9
 3320,Chapa o Coco,259,15,143830,88.9
-3321,Prostituta,259,15,359000,
-3322,Eu So Queria Sumir,259,15,269740,
+3321,Prostituta,259,15,359000,125.2
+3322,Eu So Queria Sumir,259,15,269740,121.4
 3323,Tres Reis,259,15,304143,124.9
-3324,Um Lugar ao Sol,259,15,212323,
-3325,Batalha Naval,259,15,285727,
-3326,Todo o Carnaval tem seu Fim,259,15,237426,
-3327,O Misterio do Samba,259,15,226142,
+3324,Um Lugar ao Sol,259,15,212323,132.5
+3325,Batalha Naval,259,15,285727,131.9
+3326,Todo o Carnaval tem seu Fim,259,15,237426,129.7
+3327,O Misterio do Samba,259,15,226142,132.6
 3328,Armadura,259,15,232881,105.7
 3329,Na Ladeira,259,15,221570,148.2
-3330,Carimbo,259,15,328751,
-3331,Catimbo,259,15,254484,
-3332,Funk de Bamba,259,15,237322,
-3333,Chega no Suingue,259,15,221805,
+3330,Carimbo,259,15,328751,133.6
+3331,Catimbo,259,15,254484,134.6
+3332,Funk de Bamba,259,15,237322,123.7
+3333,Chega no Suingue,259,15,221805,130.3
 3334,Mun-Ra,259,15,274651,156
-3335,Freestyle Love,259,15,318484,
+3335,Freestyle Love,259,15,318484,133
 3336,War Pigs,260,23,234013,168.1
-3349,Amanda,262,2,246503,
+3349,Amanda,262,2,246503,137.4
 3350,Despertar,262,2,307385,122.7
-3351,Din Din Wo (Little Child),263,16,285837,
+3351,Din Din Wo (Little Child),263,16,285837,136.5
 3352,Distance,264,15,327122,135.1
 3353,I Guess You're Right,265,1,212044,145.6
-3354,I Ka Barra (Your Work),263,16,300605,
+3354,I Ka Barra (Your Work),263,16,300605,130.7
 3355,Love Comes,265,1,199923,126.8
-3356,Muita Bobeira,266,7,172710,
+3356,Muita Bobeira,266,7,172710,94.3
 3357,OAM's Blues,267,2,266936,178.2
 3358,One Step Beyond,264,15,366085,147.1
 3359,"Symphony No. 3 in E-flat major, Op. 55, ""Eroica"" - Scherzo: Allegro Vivace",268,24,356426,151.8
 3365,Say Hello 2 Heaven,269,23,384497,148.4
-3366,Reach Down,269,23,672773,
-3367,Hunger Strike,269,23,246292,
-3368,Pushin Forward Back,269,23,225278,
+3366,Reach Down,269,23,672773,133
+3367,Hunger Strike,269,23,246292,111.5
+3368,Pushin Forward Back,269,23,225278,100.8
 3369,Call Me a Dog,269,23,304458,150.3
-3370,Times of Trouble,269,23,342539,
+3370,Times of Trouble,269,23,342539,123.3
 3371,Wooden Jesus,269,23,250565,107.5
 3372,Your Savior,269,23,244226,95
-3373,Four Walled World,269,23,414474,
-3374,All Night Thing,269,23,231803,
-3375,No Such Thing,270,23,224837,
+3373,Four Walled World,269,23,414474,119.2
+3374,All Night Thing,269,23,231803,141.5
+3375,No Such Thing,270,23,224837,113.5
 3376,Poison Eye,270,23,237120,126.9
-3377,Arms Around Your Love,270,23,214016,
-3378,Safe and Sound,270,23,256764,
+3377,Arms Around Your Love,270,23,214016,103.3
+3378,Safe and Sound,270,23,256764,116.1
 3379,She'll Never Be Your Man,270,23,204078,97
 3380,Ghosts,270,23,231547,111.6
 3381,Killing Birds,270,23,218498,128.1
@@ -3189,53 +3189,53 @@ ID,Title,Album,Genre,Duration in ms,BPM
 3399,Nothing Left to Say But Goodbye,271,23,213041,160.9
 3400,Moth,271,23,298049,152
 3401,Show Me How to Live (Live at the Quart Festival),271,23,301974,89.9
-3403,Intoitus: Adorate Deum,272,24,245317,
+3403,Intoitus: Adorate Deum,272,24,245317,116.6
 3404,"Miserere mei, Deus",273,24,501503,125.7
 3405,Canon and Gigue in D Major: I. Canon,274,24,271788,152
-3406,"Concerto No. 1 in E Major, RV 269 ""Spring"": I. Allegro",275,24,199086,
-3407,"Concerto for 2 Violins in D Minor, BWV 1043: I. Vivace",276,24,193722,
-3408,"Aria Mit 30 Veränderungen, BWV 988 ""Goldberg Variations"": Aria",277,24,120463,
-3409,"Suite for Solo Cello No. 1 in G Major, BWV 1007: I. Prélude",278,24,143288,
-3410,"The Messiah: Behold, I Tell You a Mystery... The Trumpet Shall Sound",279,24,582029,
+3406,"Concerto No. 1 in E Major, RV 269 ""Spring"": I. Allegro",275,24,199086,109.6
+3407,"Concerto for 2 Violins in D Minor, BWV 1043: I. Vivace",276,24,193722,129.8
+3408,"Aria Mit 30 Veränderungen, BWV 988 ""Goldberg Variations"": Aria",277,24,120463,136.7
+3409,"Suite for Solo Cello No. 1 in G Major, BWV 1007: I. Prélude",278,24,143288,98
+3410,"The Messiah: Behold, I Tell You a Mystery... The Trumpet Shall Sound",279,24,582029,70.7
 3411,Solomon HWV 67: The Arrival of the Queen of Sheba,280,24,197135,132.9
-3412,"""Eine Kleine Nachtmusik"" Serenade In G, K. 525: I. Allegro",281,24,348971,
-3413,"Concerto for Clarinet in A Major, K. 622: II. Adagio",282,24,394482,
+3412,"""Eine Kleine Nachtmusik"" Serenade In G, K. 525: I. Allegro",281,24,348971,135.1
+3413,"Concerto for Clarinet in A Major, K. 622: II. Adagio",282,24,394482,68.6
 3414,"Symphony No. 104 in D Major ""London"": IV. Finale: Spiritoso",283,24,306687,136
-3415,Symphony No.5 in C Minor: I. Allegro con brio,284,24,392462,
+3415,Symphony No.5 in C Minor: I. Allegro con brio,284,24,392462,111.5
 3416,Ave Maria,285,24,338243,142.6
-3417,"Nabucco: Chorus, ""Va, Pensiero, Sull'ali Dorate""",286,24,274504,
-3418,Die Walküre: The Ride of the Valkyries,287,24,189008,
-3419,"Requiem, Op.48: 4. Pie Jesu",288,24,258924,
-3420,"The Nutcracker, Op. 71a, Act II: Scene 14: Pas de deux: Dance of the Prince & the Sugar-Plum Fairy",289,24,304226,
+3417,"Nabucco: Chorus, ""Va, Pensiero, Sull'ali Dorate""",286,24,274504,93.9
+3418,Die Walküre: The Ride of the Valkyries,287,24,189008,95.4
+3419,"Requiem, Op.48: 4. Pie Jesu",288,24,258924,78.1
+3420,"The Nutcracker, Op. 71a, Act II: Scene 14: Pas de deux: Dance of the Prince & the Sugar-Plum Fairy",289,24,304226,99.3
 3421,"Nimrod (Adagio) from Variations On an Original Theme, Op. 36 ""Enigma""",290,24,250031,136
-3422,Madama Butterfly: Un Bel Dì Vedremo,291,24,277639,
+3422,Madama Butterfly: Un Bel Dì Vedremo,291,24,277639,84
 3423,"Jupiter, the Bringer of Jollity",292,24,522099,115
 3424,"Turandot, Act III, Nessun dorma!",293,24,176911,97.7
-3425,"Adagio for Strings from the String Quartet, Op. 11",294,24,596519,
+3425,"Adagio for Strings from the String Quartet, Op. 11",294,24,596519,112.6
 3426,Carmina Burana: O Fortuna,295,24,156710,135.1
 3427,Fanfare for the Common Man,296,24,198064,113
-3430,"Toccata and Fugue in D Minor, BWV 565: I. Toccata",297,24,153901,
-3431,"Symphony No.1 in D Major, Op.25 ""Classical"", Allegro Con Brio",298,24,254001,
-3432,"Scheherazade, Op. 35: I. The Sea and Sindbad's Ship",299,24,545203,
-3433,"Concerto No.2 in F Major, BWV1047, I. Allegro",300,24,307244,
-3434,"Concerto for Piano No. 2 in F Minor, Op. 21: II. Larghetto",301,24,560342,
+3430,"Toccata and Fugue in D Minor, BWV 565: I. Toccata",297,24,153901,134.3
+3431,"Symphony No.1 in D Major, Op.25 ""Classical"", Allegro Con Brio",298,24,254001,134.9
+3432,"Scheherazade, Op. 35: I. The Sea and Sindbad's Ship",299,24,545203,100.3
+3433,"Concerto No.2 in F Major, BWV1047, I. Allegro",300,24,307244,117.2
+3434,"Concerto for Piano No. 2 in F Minor, Op. 21: II. Larghetto",301,24,560342,62.4
 3435,Cavalleria Rusticana \ Act \ Intermezzo Sinfonico,302,24,243436,150.3
-3436,"Karelia Suite, Op.11: 2. Ballade (Tempo Di Menuetto)",303,24,406000,
+3436,"Karelia Suite, Op.11: 2. Ballade (Tempo Di Menuetto)",303,24,406000,124.9
 3437,"Piano Sonata No. 14 in C Sharp Minor, Op. 27, No. 2, ""Moonlight"": I. Adagio sostenuto",304,24,391000,136.9
 3438,Fantasia On Greensleeves,280,24,268066,136.4
 3439,"Das Lied Von Der Erde, Von Der Jugend",305,24,223583,82.2
-3440,"Concerto for Cello and Orchestra in E minor, Op. 85: I. Adagio - Moderato",306,24,483133,
-3441,Two Fanfares for Orchestra: II. Short Ride in a Fast Machine,307,24,254930,
-3442,"Wellington's Victory or the Battle Symphony, Op.91: 2. Symphony of Triumph",308,24,412000,
+3440,"Concerto for Cello and Orchestra in E minor, Op. 85: I. Adagio - Moderato",306,24,483133,122.6
+3441,Two Fanfares for Orchestra: II. Short Ride in a Fast Machine,307,24,254930,81.4
+3442,"Wellington's Victory or the Battle Symphony, Op.91: 2. Symphony of Triumph",308,24,412000,74.7
 3443,Missa Papae Marcelli: Kyrie,309,24,240666,120.5
-3444,Romeo et Juliette: No. 11 - Danse des Chevaliers,310,24,275015,
-3445,On the Beautiful Blue Danube,311,24,526696,
-3446,"Symphonie Fantastique, Op. 14: V. Songe d'une nuit du sabbat",312,24,561967,
-3447,Carmen: Overture,313,24,132932,
-3448,"Lamentations of Jeremiah, First Set \ Incipit Lamentatio",314,24,69194,
-3449,"Music for the Royal Fireworks, HWV351 (1749): La Réjouissance",315,24,120000,
-3450,"Peer Gynt Suite No.1, Op.46: 1. Morning Mood",316,24,253422,
-3451,"Die Zauberflöte, K.620: ""Der Hölle Rache Kocht in Meinem Herze""",317,25,174813,
+3444,Romeo et Juliette: No. 11 - Danse des Chevaliers,310,24,275015,79.8
+3445,On the Beautiful Blue Danube,311,24,526696,91.2
+3446,"Symphonie Fantastique, Op. 14: V. Songe d'une nuit du sabbat",312,24,561967,71.9
+3447,Carmen: Overture,313,24,132932,116.4
+3448,"Lamentations of Jeremiah, First Set \ Incipit Lamentatio",314,24,69194,74
+3449,"Music for the Royal Fireworks, HWV351 (1749): La Réjouissance",315,24,120000,108.9
+3450,"Peer Gynt Suite No.1, Op.46: 1. Morning Mood",316,24,253422,126.2
+3451,"Die Zauberflöte, K.620: ""Der Hölle Rache Kocht in Meinem Herze""",317,25,174813,97.9
 3452,"SCRIABIN: Prelude in B Major, Op. 11, No. 11",318,24,101293,157.8
 3453,"Pavan, Lachrimae Antiquae",319,24,253281,110.6
 3454,"Symphony No. 41 in C Major, K. 551, ""Jupiter"": IV. Molto allegro",320,24,362933,141.6
@@ -3265,28 +3265,28 @@ ID,Title,Album,Genre,Duration in ms,BPM
 3478,Slowness,323,23,215386,126.8
 3479,"Prometheus Overture, Op. 43",324,24,339567,132.5
 3480,Sonata for Solo Violin: IV: Presto,325,24,299350,122.3
-3481,"A Midsummer Night's Dream, Op.61 Incidental Music: No.7 Notturno",326,24,387826,
-3482,"Suite No. 3 in D, BWV 1068: III. Gavotte I & II",327,24,225933,
+3481,"A Midsummer Night's Dream, Op.61 Incidental Music: No.7 Notturno",326,24,387826,93.8
+3482,"Suite No. 3 in D, BWV 1068: III. Gavotte I & II",327,24,225933,121.8
 3483,"Concert pour 4 Parties de Violes, H. 545: I. Prelude",328,24,110266,86.1
-3484,Adios nonino,329,24,289388,
-3485,"Symphony No. 3 Op. 36 for Orchestra and Soprano ""Symfonia Piesni Zalosnych"" - Lento E Largo - Tranquillissimo",330,24,567494,
-3486,"Act IV, Symphony",331,24,364296,
-3487,"3 Gymnopédies: No.1 - Lent Et Grave, No.3 - Lent Et Douloureux",332,24,385506,
-3488,"Music for the Funeral of Queen Mary: VI. ""Thou Knowest, Lord, the Secrets of Our Hearts""",333,24,142081,
-3489,Symphony No. 2: III. Allegro vivace,334,24,376510,
+3484,Adios nonino,329,24,289388,121.1
+3485,"Symphony No. 3 Op. 36 for Orchestra and Soprano ""Symfonia Piesni Zalosnych"" - Lento E Largo - Tranquillissimo",330,24,567494,95.8
+3486,"Act IV, Symphony",331,24,364296,81.8
+3487,"3 Gymnopédies: No.1 - Lent Et Grave, No.3 - Lent Et Douloureux",332,24,385506,87.2
+3488,"Music for the Funeral of Queen Mary: VI. ""Thou Knowest, Lord, the Secrets of Our Hearts""",333,24,142081,95.8
+3489,Symphony No. 2: III. Allegro vivace,334,24,376510,110.9
 3490,"Partita in E Major, BWV 1006A: I. Prelude",335,24,285673,174.4
-3491,Le Sacre Du Printemps: I.iv. Spring Rounds,336,24,234746,
+3491,Le Sacre Du Printemps: I.iv. Spring Rounds,336,24,234746,62.5
 3492,Sing Joyfully,314,24,133768,128.4
 3493,"Metopes, Op. 29: Calypso",337,24,333669,85.5
-3494,"Symphony No. 2, Op. 16 -  ""The Four Temperaments"": II. Allegro Comodo e Flemmatico",338,24,286998,
+3494,"Symphony No. 2, Op. 16 -  ""The Four Temperaments"": II. Allegro Comodo e Flemmatico",338,24,286998,135.5
 3495,"24 Caprices, Op. 1, No. 24, for Solo Violin, in A Minor",339,24,265541,131.2
 3496,"Étude 1, In C Major - Preludio (Presto) - Liszt",340,24,51780,150.3
 3497,"Erlkonig, D.328",341,24,261849,159
-3498,"Concerto for Violin, Strings and Continuo in G Major, Op. 3, No. 9: I. Allegro",342,24,493573,
-3499,Pini Di Roma (Pinien Von Rom) \ I Pini Della Via Appia,343,24,286741,
-3500,"String Quartet No. 12 in C Minor, D. 703 ""Quartettsatz"": II. Andante - Allegro assai",344,24,139200,
-3501,"L'orfeo, Act 3, Sinfonia (Orchestra)",345,24,66639,
-3502,"Quintet for Horn, Violin, 2 Violas, and Cello in E Flat Major, K. 407/386c: III. Allegro",346,24,221331,
+3498,"Concerto for Violin, Strings and Continuo in G Major, Op. 3, No. 9: I. Allegro",342,24,493573,97.2
+3499,Pini Di Roma (Pinien Von Rom) \ I Pini Della Via Appia,343,24,286741,72.5
+3500,"String Quartet No. 12 in C Minor, D. 703 ""Quartettsatz"": II. Andante - Allegro assai",344,24,139200,87.1
+3501,"L'orfeo, Act 3, Sinfonia (Orchestra)",345,24,66639,87.9
+3502,"Quintet for Horn, Violin, 2 Violas, and Cello in E Flat Major, K. 407/386c: III. Allegro",346,24,221331,109.2
 3503,Koyaanisqatsi,347,10,206005,131.8
 3504,Lucy in the Sky with Diamonds,249,1,207000,97.5
 3505,With a Little Help from My Friends,249,1,164000,112.3
