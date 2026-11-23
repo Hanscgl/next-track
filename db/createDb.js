@@ -9,51 +9,54 @@ console.log('Dropping existing tables...');
 await db.query('drop table if exists artists');
 await db.query('drop table if exists albums');
 
-await db.query('drop table if exists tracks');
 await db.query('drop table if exists genres');
+await db.query('drop table if exists tracks');
 
-await db.query('drop table if exists category');
+//await db.query('drop table if exists category');
 await db.query('drop table if exists users');
 await db.query('drop table if exists playlists');
 await db.query('drop table if exists playlist_tracks');
 await db.query('drop table if exists queue');
+await db.query('drop table if exists playlist_in_queue');
 
 console.log('Creating tables...');
 
 await db.query(`
     create table artists (
-        artist_id   integer,
-        stage_name  text
+        artist_id   integer     primary key,
+        stage_name  text        unique not null
     )
 `);
 await db.query(`
     create table albums (
-        album_id         integer,
-        artist_id        integer,
-        release_date     date,
-        title            text 
+        album_id         integer    primary key,
+        artist_id        integer    references(artist_id),
+        release_date     date       not null,
+        title            text       not null       
+    )
+`);
+
+
+await db.query(`
+    create table genres (
+        genre_id    integer         primary key,
+        name        text            not null,
+        description text            
     )
 `);
 
 await db.query(`
     create table tracks (
-        track_id      integer,
-        album_id      integer,
-        genre_id      integer,
-        milliseconds  integer,
-        title         text,
-        bpm           numeric
-    )
-`);
-await db.query(`
-    create table genres (
-        genre_id    integer,
-        name        text,
-        description text
+        track_id      integer       primary key,
+        album_id      integer       references(album_id),
+        genre_id      integer       references(genre_id),
+        milliseconds  integer       not null,
+        title         text          not null,
+        bpm           numeric       not null
     )
 `);
 
-await db.query(`
+/*await db.query(`
     create table category (
         category_id         integer,
         category_name       text,
@@ -62,52 +65,65 @@ await db.query(`
         genre_id            integer,
         genreTwo_id         integer
     )
+`);*/
+
+
+await db.query(`
+    create table users (
+        user_id     bigint      primary key,
+        signed_up   timestamp,
+        active      boolean,
+        screen_name text        not null,
+        email       text
+    )
 `);
 
 await db.query(`
     create table playlists (
-        playlist_id bigint,
-        user_id     bigint,
-        created     timestamp,
-        name        text,
-        category_id integer
+        playlist_id bigint      primary key,
+        user_id     bigint      references(user_id),
+        created     timestamp   not null,
+        name        text        not null
+    )
+`);
+        /*category_id integer*/
+
+await db.query(`
+    create table playlist_track (
+        playlist_id bigint      references(playlist_id),
+        track_id    integer     references(track_id),
+        position    integer,
+
+        unique(playlist_id, track_id),
+        unique(playlist_id, track_position) 
     )
 `);
 
 await db.query(`
-    create table users (
-        user_id     bigint,
-        signed_up   timestamp,
-        active      boolean,
-        screen_name text,
-        email       text
-    )
-`);
-await db.query(`
-    create table playlist_track (
-        playlist_id bigint,
-        track_id    integer,
-        position    integer
-    )
-`);
-await db.query(`
     create table queue (
-        queue_id    integer,
-        track_id    integer,
-        playlist_id integer,
-        is_played   boolean,
-        position    integer
+        queue_id            integer         primary key,
+        current_position    integer         not null,
+        name                text            not null,
+        created_at          timestamp       not null         
+    )
+`);
+
+await db.query(`
+    create table playlist_in_queue (
+        queue_id    integer                 references(queue_id),
+        playlist_position integer           primary key,
+        playlist_id integer                 references(playlist_id),
     )
 `);
 
 console.log('Importing csv-data into tables...')
 await upload(db, 'db/artists.csv', `
-    copy artists (artist_id, stage_name, nationality)
+    copy artists (artist_id, stage_name)
     from stdin
     with csv encoding 'UTF-8'
 `);
 await upload(db, 'db/albums.csv', `
-    copy albums (album_id, title, artist_id, release_date, riaa_certificate)
+    copy albums (album_id, title, artist_id, release_date)
     from stdin
     with csv header encoding 'UTF-8'
 `);
