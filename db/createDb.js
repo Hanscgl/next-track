@@ -116,9 +116,10 @@ await db.query(`
 await db.query(`
     create table playlist_in_queue (
         queue_id            integer                 references queue(queue_id),
-        playlist_position   integer                 primary key,
-        playlist_id         bigint                  references playlists(playlist_id)
-    )
+        playlist_position   integer                 not null,
+        playlist_id         bigint                  references playlists(playlist_id),
+        unique(queue_id, playlist_position)
+        )
 `);
 
 console.log('Importing csv-data into tables...')
