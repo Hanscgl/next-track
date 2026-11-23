@@ -5,7 +5,39 @@ const db = pool();
 
 const port = 3002;
 const server = express();
+
 server.use(express.static('frontend'));
+server.use(onEachRequest);
+server.get('/api/genres/', onGetGenres);
+server.listen(port, onServerReady);
+
+async function onGetGenres(request, response) {
+
+    const dbResult = await db.query(`
+        select   name, genre_id
+        from     genres
+        order by genre_id asc;
+        `);
+    response.json(dbResult.rows);
+}
+
+function onServerReady(){
+    console.log('Webserver running on port', port);
+}
+
+function onEachRequest(request, response, next){
+    console.log(new Date(), request.method, request.url);
+    next();
+}
+
+
+
+
+
+
+
+
+/*server.use(express.static('frontend'));
 server.use(onEachRequest);
 server.get('/api/artist/:id', onGetArtistById);
 server.get('/api/albumsByReleaseDate', onGetAlbumsByReleaseDate);
@@ -39,3 +71,4 @@ function onEachRequest(request, response, next) {
     console.log(new Date(), request.method, request.url);
     next();
 }
+    */

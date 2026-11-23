@@ -21,14 +21,25 @@
     <main id="page-layout">
         <div id="left-section"> 
             <div id="playlist-tabs">
-                <button type="button " class="playlist-options" id="new-button"> New Playlist </button>
-                <button type="button" class="playlist-options" id="saved-button"> Saved Playlists</button>
+                <button type="button" class="playlist-options" id="new-button"> New Playlist </button>
+                <button type="button" class="playlist-options" id="saved-button" onclick="newPlaylist"> Saved Playlists</button>
+                <script>
+                    function newPlaylist (){
+                        const saveButton = document.getElementById("saved-button")
+                        const div = document.getElementbyId("saved-playlists")
+                        div.innerHTML = ""
+                        console.log(saveButton)
+
+                    }
+                    
+
+                </script>
             </div>
             
             <div id="new-playlist">
-                <h2>Select Category</h2>
+                <h2>Select Genre</h2>
                 <p>Pick an activity below to generate a playlist</p>
-                <button type="button " class="playlist-options" id="genres"> Placeholder </button>
+                <button type="button" class="playlist-options" id="genres"> Placeholder </button>
         <!--    <button type="button " class="playlist-options" id="dinner-button"> Dinner </button>
                 <button type="button" class="playlist-options" id="training-button"> Training</button>
                 <button type="button " class="playlist-options" id="relax-button"> Relax </button>
@@ -36,6 +47,7 @@
             <button type="button" class="playlist-options" id="study-button"> Study</button>--> 
             </div>  
             <div id="saved-playlists">
+                <h2>Saved Playlists</h2>
             </div>
             </div>
         </div>
