@@ -24,16 +24,17 @@
                 <button type="button" class="playlist-options" id="new-button"> New Playlist </button>
                 <button type="button" class="playlist-options" id="saved-button" onclick="newPlaylist"> Saved Playlists</button>
                 <script>
-                    function newPlaylist (){
-                        const saveButton = document.getElementById("saved-button")
-                        const div = document.getElementbyId("saved-playlists")
-                        div.innerHTML = ""
-                        console.log(saveButton)
-
+                    const saveButton = document.getElementById("saved-button")
+                    saveButton.addEventListener('click', async function(click){
+                        console.log("hello");
+                        const response = await fetch('/api/genres/')   
+                        const genre = await response.json() 
+                        console.log(genre)                   
                     }
-                    
+                )
+            </script>
 
-                </script>
+
             </div>
             
             <div id="new-playlist">
