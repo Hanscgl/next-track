@@ -7,20 +7,37 @@ const port = 3002;
 const server = express();
 
 server.use(express.static('frontend'));
+
+// Hvad gør nedenstående linje? LÆS https://www.geeksforgeeks.org/web-tech/express-js-express-json-function/
+server.use(express.json())
 server.use(onEachRequest);
 server.get('/api/genres/', onGetGenres);
+server.get('/api/savedPlaylist/', onGetPlaylists)
 server.listen(port, onServerReady);
 
+// HENTER GENRE FRA GENRES.CSV OG OPSTILLER DEM I ALFABETISK RÆKKEFØLGE
 async function onGetGenres(request, response) {
 
     const dbResult = await db.query(`
         select   name, genre_id
         from     genres
-        order by genre_id asc;
+        order by genre_id asc
         `);
     response.json(dbResult.rows);
 }
 
+// HENTER GEMTE PLAYLISTER FRA PLAYLISTS.CSV OG OPSTILLER DEM I RÆKKEFØLGE EFTER ID(fra laveste til højeste)
+async function onGetPlaylists(request, response){
+    const dbResult = await db.query(`
+        select  playlist_id, name, user_id, created
+        from    playlists
+        order by playlist_id asc
+
+        `);
+    response.json(dbResult.rows);
+}
+       
+// UDSKRIVER I KONSOLLEN, AT SERVEREN ER OPPE AT KØRE PÅ (PORT)
 function onServerReady(){
     console.log('Webserver running on port', port);
 }
