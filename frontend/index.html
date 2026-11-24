@@ -22,35 +22,13 @@
         <div id="left-section"> 
             <div id="playlist-tabs">
                 <button type="button" class="playlist-options" id="new-button"> New Playlist </button>
-                <button type="button" class="playlist-options" id="saved-button" onclick="newPlaylist"> Saved Playlists</button>
-                <script>
-                    const saveButton = document.getElementById("saved-button")
-                    saveButton.addEventListener('click', async function(click){
-                        console.log("hello");
-                        const response = await fetch('/api/genres/')   
-                        const genre = await response.json() 
-                        console.log(genre)                   
-                    }
-                )
-            </script>
-
-
+                <button type="button" class="playlist-options" id="saved-button"> Saved Playlists</button>
             </div>
             
             <div id="new-playlist">
                 <h2>Select Genre</h2>
-                <p>Pick an activity below to generate a playlist</p>
-                <button type="button" class="playlist-options" id="genres"> Placeholder </button>
-        <!--    <button type="button " class="playlist-options" id="dinner-button"> Dinner </button>
-                <button type="button" class="playlist-options" id="training-button"> Training</button>
-                <button type="button " class="playlist-options" id="relax-button"> Relax </button>
-                <button type="button" class="playlist-options" id="party-button"> Party</button>
-            <button type="button" class="playlist-options" id="study-button"> Study</button>--> 
+
             </div>  
-            <div id="saved-playlists">
-                <h2>Saved Playlists</h2>
-            </div>
-            </div>
         </div>
 
         <div id="middle-section"> 
@@ -78,11 +56,15 @@
             </div>
 
             <div id= "shared-queue">
-                <h2>Shared Queue</h2>
+                <div class="shared-queue-header">
+                    <h2>Shared Queue</h2>
                 <p>song 1</p> 
-                </div>            
+                </div>
+            </div>            
         </div>
     </main>
+    <script src="newPlaylist.js"></script>
+    <script src="savedPlaylist.js"></script>
 </body>
 </html>
 
