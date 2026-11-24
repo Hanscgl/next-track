@@ -1,4 +1,5 @@
 # HEMMELIGHEDER
 .DS_Store
 .env
+ST-genres.js
 node_modules/
