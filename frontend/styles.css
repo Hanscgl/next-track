@@ -20,10 +20,14 @@ body {
     gap: 12px;
 }
 
+/* LEFT SECTION */
+
 #left-section {
   border: 1px solid black;
   padding-left: 10px;
 }
+
+/* MIDDLE SECTION */
 
 #middle-section {
   border: 1px solid black;
@@ -31,13 +35,22 @@ body {
 }
 
 
-#right-section {
+/* RIGHT SECTION */
+
+#now-playing {
+  border: 1px solid black;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+#shared-queue {
   border: 1px solid black;
   padding-left: 10px;
 }
 
 .playlist-options {
   border: 1px solid black;
-
 }
-
+.now-playing-header .shared-queue-header {
+  background-color: #919191;
+}
