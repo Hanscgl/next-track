@@ -13,6 +13,9 @@ server.use(express.json())
 server.use(onEachRequest);
 server.get('/api/genres/', onGetGenres);
 server.get('/api/savedPlaylist/', onGetPlaylists)
+server.get('/api/users/', onGetUsers)
+server.get('/api/users/:userId/playlists/', onGetUserPlaylists)
+
 server.listen(port, onServerReady);
 
 // HENTER GENRE FRA GENRES.CSV OG OPSTILLER DEM I ALFABETISK RÆKKEFØLGE
@@ -34,6 +37,30 @@ async function onGetPlaylists(request, response){
         order by playlist_id asc
 
         `);
+    response.json(dbResult.rows);
+}
+
+
+async function onGetUsers(request, response) {
+  const dbResult = await db.query(`
+    select      user_id, screen_name
+    from        users
+    order by    user_id asc
+  `);
+  response.json(dbResult.rows);
+}
+
+// HENTER USER PLAYLISTS FRA ??
+async function onGetUserPlaylists(request, response){
+    const userId = request.params.userId;
+    
+    const dbResult = await db.query(`
+        select      playlist_id, name, user_id, created
+        from        playlists
+        where       user_id = $1
+        order by    playlist_id asc
+        `,
+        [userId])
     response.json(dbResult.rows);
 }
        
