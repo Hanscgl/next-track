@@ -11,11 +11,11 @@ server.use(express.static('frontend'));
 // Hvad gør nedenstående linje? LÆS https://www.geeksforgeeks.org/web-tech/express-js-express-json-function/
 server.use(express.json())
 server.use(onEachRequest);
-
 server.get('/api/genres/', onGetGenres);
 server.get('/api/savedPlaylist/', onGetPlaylists)
-
-server.post('/api/playlists', onPostPlaylists)
+server.get('/api/users/', onGetUsers)
+server.get('/api/users/:userId/playlists/', onGetUserPlaylists)
+server.post('/api/playlists/', onPostPlaylist)
 
 
 // !!! den her fejler - skal undersøges nærmere !!!
