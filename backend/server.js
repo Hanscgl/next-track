@@ -11,8 +11,16 @@ server.use(express.static('frontend'));
 // Hvad gør nedenstående linje? LÆS https://www.geeksforgeeks.org/web-tech/express-js-express-json-function/
 server.use(express.json())
 server.use(onEachRequest);
+
 server.get('/api/genres/', onGetGenres);
 server.get('/api/savedPlaylist/', onGetPlaylists)
+
+server.post('/api/playlists', onPostPlaylists)
+
+
+// !!! den her fejler - skal undersøges nærmere !!!
+// server.get('/api/newPlaylist/?genre=id/&min=minValue/&max=maxValue', onGetNewPlaylist)
+
 server.listen(port, onServerReady);
 
 // HENTER GENRE FRA GENRES.CSV OG OPSTILLER DEM I ALFABETISK RÆKKEFØLGE
@@ -36,7 +44,88 @@ async function onGetPlaylists(request, response){
         `);
     response.json(dbResult.rows);
 }
-       
+
+
+async function onGetUsers(request, response) {
+  const dbResult = await db.query(`
+    select      user_id, screen_name
+    from        users
+    order by    user_id asc
+  `);
+  response.json(dbResult.rows);
+}
+
+// HENTER USER PLAYLISTS FRA ??
+async function onGetUserPlaylists(request, response){
+    const userId = request.params.userId;
+    
+    const dbResult = await db.query(`
+        select      playlist_id, name, user_id, created
+        from        playlists
+        where       user_id = $1
+        order by    playlist_id asc
+        `,
+        [userId])
+    response.json(dbResult.rows);
+}
+
+//lav en ny liste, som er en playliste lavet ud fra vores parametre
+async function onGetNewPlaylist(request, response){
+    
+    const genreNavn = request.params.genre ;
+    const minYear = parseInt(request.params.minValue) ;
+    const maxYear = parseInt(request.params.maxValue) ;
+    
+    const dbResult = await db.query(`
+        select t.track_id, t.title, al.album_id, ar.stage_name, g.name,
+        extract(year from al.release_date) as year
+
+        from tracks t
+
+        join albums al using (album_id)
+        join artists ar using (artist_id)
+        join genres g using (genre_id)
+
+        where g.name = $1
+        and extract(year from al.release_date) between $2 and $3
+        order by random()
+        limit 15;
+        `, [genreNavn],[minYear],[maxYear]); // !!! $'erne fejler muligvis !!!
+
+        response.json(dbResult);
+
+};
+
+
+async function onPostPlaylist(request, response) {
+    const userId = request.body.userId;
+    const name = request.body.name;
+    const trackIds = request.body.trackIds;
+
+    // FINDER DET HØJESTE ID PÅ PLAYLISTERNE I playlists
+    const lastPlaylistId = await db.query(`
+        select max(playlist_id) as latestPlaylistId
+        from playlists
+    `);
+    
+    // GÅR IND I lastPlaylistId, KIGGER PÅ DEN FØRSTE RÆKKE [0], TAGER latestPlaylistId, LAVER DET OM TIL ET NUMBER OG TILFØJER 1 TIL DET
+    const currentId = lastPlaylistId.rows[0].latestPlaylistId;
+    const nextPlaylistId = Number(currentId) + 1; // "Number" fordi at latestPlaylistId ligger som en string i lastPlaylistId
+
+    await db.query(`
+            insert into playlists (playlist_id, created, user_id, name)
+            values ($1, now(), $2, $3)
+    `,      [nextPlaylistId, userId, name]);
+
+    for (let i = 0; i < trackIds.length; i++); {
+        await db.query(`
+            insert into playlist_track (playlist_id, track_id)`)
+    }
+}
+
+
+
+
 // UDSKRIVER I KONSOLLEN, AT SERVEREN ER OPPE AT KØRE PÅ (PORT)
 function onServerReady(){
     console.log('Webserver running on port', port);
