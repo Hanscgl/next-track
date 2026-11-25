@@ -45,6 +45,30 @@ async function onGetPlaylists(request, response){
     response.json(dbResult.rows);
 }
 
+
+async function onGetUsers(request, response) {
+  const dbResult = await db.query(`
+    select      user_id, screen_name
+    from        users
+    order by    user_id asc
+  `);
+  response.json(dbResult.rows);
+}
+
+// HENTER USER PLAYLISTS FRA ??
+async function onGetUserPlaylists(request, response){
+    const userId = request.params.userId;
+    
+    const dbResult = await db.query(`
+        select      playlist_id, name, user_id, created
+        from        playlists
+        where       user_id = $1
+        order by    playlist_id asc
+        `,
+        [userId])
+    response.json(dbResult.rows);
+}
+
 //lav en ny liste, som er en playliste lavet ud fra vores parametre
 async function onGetNewPlaylist(request, response){
     

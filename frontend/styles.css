@@ -54,3 +54,15 @@ body {
 .now-playing-header .shared-queue-header {
   background-color: #919191;
 }
+
+
+
+.user-btn {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.user-btn.active {
+  background-color: #007bff;
+  color: white;
+}
