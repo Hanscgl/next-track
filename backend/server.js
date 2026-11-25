@@ -11,8 +11,12 @@ server.use(express.static('frontend'));
 // Hvad gør nedenstående linje? LÆS https://www.geeksforgeeks.org/web-tech/express-js-express-json-function/
 server.use(express.json())
 server.use(onEachRequest);
+
 server.get('/api/genres/', onGetGenres);
 server.get('/api/savedPlaylist/', onGetPlaylists)
+
+server.post('/api/playlists', onPostPlaylists)
+
 server.listen(port, onServerReady);
 
 // HENTER GENRE FRA GENRES.CSV OG OPSTILLER DEM I ALFABETISK RÆKKEFØLGE
@@ -36,6 +40,36 @@ async function onGetPlaylists(request, response){
         `);
     response.json(dbResult.rows);
 }
+
+
+async function onPostPlaylist(request, response) {
+    const userId = request.body.userId;
+    const name = request.body.name;
+    const trackIds = request.body.trackIds;
+
+    // FINDER DET HØJESTE ID PÅ PLAYLISTERNE I playlists
+    const lastPlaylistId = await db.query(`
+        select max(playlist_id) as latestPlaylistId
+        from playlists
+    `);
+    
+    // GÅR IND I lastPlaylistId, KIGGER PÅ DEN FØRSTE RÆKKE [0], TAGER latestPlaylistId, LAVER DET OM TIL ET NUMBER OG TILFØJER 1 TIL DET
+    const currentId = lastPlaylistId.rows[0].latestPlaylistId;
+    const nextPlaylistId = Number(currentId) + 1; // "Number" fordi at latestPlaylistId ligger som en string i lastPlaylistId
+
+    await db.query(`
+            insert into playlists (playlist_id, created, user_id, name)
+            values ($1, now(), $2, $3)
+    `,      [nextPlaylistId, userId, name]);
+
+    for (let i = 0; i < trackIds.length; i++); {
+        await db.query(`
+            insert into playlist_track (playlist_id, track_id)`)
+    }
+}
+
+
+
        
 // UDSKRIVER I KONSOLLEN, AT SERVEREN ER OPPE AT KØRE PÅ (PORT)
 function onServerReady(){
