@@ -13,9 +13,12 @@ server.use(express.json())
 server.use(onEachRequest);
 server.get('/api/genres/', onGetGenres);
 server.get('/api/savedPlaylist/', onGetPlaylists)
+
 server.get('/api/users/', onGetUsers)
 server.get('/api/users/:userId/playlists/', onGetUserPlaylists)
-server.post('/api/playlists/', onPostPlaylist)
+
+server.post('/api/playlists', onPostPlaylist)
+
 
 
 // !!! den her fejler - skal undersøges nærmere !!!
@@ -97,6 +100,8 @@ async function onGetNewPlaylist(request, response){
 };
 
 
+// START: AT GEMME EN PLAYLISTE
+
 async function onPostPlaylist(request, response) {
     const userId = request.body.userId;
     const name = request.body.name;
@@ -112,17 +117,25 @@ async function onPostPlaylist(request, response) {
     const currentId = lastPlaylistId.rows[0].latestPlaylistId;
     const nextPlaylistId = Number(currentId) + 1; // "Number" fordi at latestPlaylistId ligger som en string i lastPlaylistId
 
+    // NY RÆKKE I PLAYLISTS MED VÆRDIERNE:
+    // $1 = den nye playlistes ID
+    // now() = tidspunkt for oprettelsen af den nye playliste
+    // $2 = ID'et for brugeren der har oprettet playlisten
+    // $3 = navnet på den nye playliste
     await db.query(`
             insert into playlists (playlist_id, created, user_id, name)
             values ($1, now(), $2, $3)
     `,      [nextPlaylistId, userId, name]);
 
+    // FOR HVERT TRACK TILDELES playlist_id, track_id, position OG SÆTTES IND I TABELLEN playlist_track
     for (let i = 0; i < trackIds.length; i++); {
         await db.query(`
-            insert into playlist_track (playlist_id, track_id)`)
+            insert into playlist_track (playlist_id, track_id, position)
+            values $1, $2, $3
+        `,  [nextPlaylistId, trackIds[i], i + 1]);
     }
 }
-
+// SLUT: AT GEMME EN PLAYLISTE
 
 
 
