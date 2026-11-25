@@ -17,6 +17,10 @@ server.get('/api/savedPlaylist/', onGetPlaylists)
 
 server.post('/api/playlists', onPostPlaylists)
 
+
+// !!! den her fejler - skal undersøges nærmere !!!
+// server.get('/api/newPlaylist/?genre=id/&min=minValue/&max=maxValue', onGetNewPlaylist)
+
 server.listen(port, onServerReady);
 
 // HENTER GENRE FRA GENRES.CSV OG OPSTILLER DEM I ALFABETISK RÆKKEFØLGE
@@ -40,6 +44,33 @@ async function onGetPlaylists(request, response){
         `);
     response.json(dbResult.rows);
 }
+
+//lav en ny liste, som er en playliste lavet ud fra vores parametre
+async function onGetNewPlaylist(request, response){
+    
+    const genreNavn = request.params.genre ;
+    const minYear = parseInt(request.params.minValue) ;
+    const maxYear = parseInt(request.params.maxValue) ;
+    
+    const dbResult = await db.query(`
+        select t.track_id, t.title, al.album_id, ar.stage_name, g.name,
+        extract(year from al.release_date) as year
+
+        from tracks t
+
+        join albums al using (album_id)
+        join artists ar using (artist_id)
+        join genres g using (genre_id)
+
+        where g.name = $1
+        and extract(year from al.release_date) between $2 and $3
+        order by random()
+        limit 15;
+        `, [genreNavn],[minYear],[maxYear]); // !!! $'erne fejler muligvis !!!
+
+        response.json(dbResult);
+
+};
 
 
 async function onPostPlaylist(request, response) {
@@ -70,7 +101,7 @@ async function onPostPlaylist(request, response) {
 
 
 
-       
+
 // UDSKRIVER I KONSOLLEN, AT SERVEREN ER OPPE AT KØRE PÅ (PORT)
 function onServerReady(){
     console.log('Webserver running on port', port);
