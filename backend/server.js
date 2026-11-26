@@ -19,10 +19,8 @@ server.get('/api/users/:userId/playlists/', onGetUserPlaylists)
 
 server.post('/api/playlists', onPostPlaylist)
 
-
-
-// !!! den her fejler - skal undersøges nærmere !!!
-// server.get('/api/newPlaylist/?genre=id/&min=minValue/&max=maxValue', onGetNewPlaylist)
+// Virker nu !!! Ny playliste: 15 tilfældige sange ud fra genre og årti
+server.get('/api/newPlaylist/:genre/:minValue/:maxValue', onGetNewPlaylist)
 
 server.listen(port, onServerReady);
 
@@ -79,6 +77,29 @@ async function onGetNewPlaylist(request, response){
     const minYear = parseInt(request.params.minValue) ;
     const maxYear = parseInt(request.params.maxValue) ;
     
+    /*                  --- SQL for filtreringen af sange ---
+    
+     IDEEN: At der skal udvælges 15 sange ud fra parametrene (genre, start-årstal & slut-årstal)
+            Ud fra ER-modellen kan vi se, hvilke tabeller vi skal have fat i, og hvordan de hænger sammen.
+            Vi skal bruge tabellerne: tracks, albums, artists og genres
+
+            HUSK hvilken rækkefølge vores SQL maskine læser denne query !
+                Trin 1-6 herunder følger IKKE maskinens rækkefølge !
+                -> "Maskinen læser: from/join → where → select → order by → limit"
+
+        1. vi opstiller hvilke kolonner vi vil have vist, hvori year-kolonnen er kun årstallet, hvilket
+            bliver hivet ud af release_date, da udgivelsesdatoen er yyyy-mm-dd
+        2. vi starter ud fra tabellen tracks, som får et alias 't'
+        3. vi sammenkæder de andre tabeller og giver dem hver et alias
+        4. Der søges ud fra genre OG årstal... 
+            Den givne genre placeres ved '$1'.
+            Det givne start-år placeres ved '$2'
+            Det givne slut-år placeres ved '$3'
+               ! 'between' tager begge ender !
+        5. sorteres random ()
+        6. limit er på 15 rækker
+    */
+
     const dbResult = await db.query(`
         select t.track_id, t.title, al.album_id, ar.stage_name, g.name,
         extract(year from al.release_date) as year
@@ -93,9 +114,9 @@ async function onGetNewPlaylist(request, response){
         and extract(year from al.release_date) between $2 and $3
         order by random()
         limit 15;
-        `, [genreNavn],[minYear],[maxYear]); // !!! $'erne fejler muligvis !!!
+        `, [genreNavn, minYear, maxYear]);
 
-        response.json(dbResult);
+        response.json(dbResult.rows);
 
 };
 
