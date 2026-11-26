@@ -11,13 +11,14 @@ server.use(express.static('frontend'));
 // Hvad gør nedenstående linje? LÆS https://www.geeksforgeeks.org/web-tech/express-js-express-json-function/
 server.use(express.json())
 server.use(onEachRequest);
+
 server.get('/api/genres/', onGetGenres);
 server.get('/api/savedPlaylist/', onGetPlaylists)
 server.get('/api/users/', onGetUsers);
 server.get('/api/users/:userId/playlists/', onGetUserPlaylists);
 server.get('/api/playlist/:id/tracks/', onGetPlaylistTracks);
 server.get('/api/users/', onGetUsers)
-server.get('/api/users/:userId/playlists/', onGetUserPlaylist)
+server.get('/api/users/:userId/playlists/', onGetUserPlaylists)
 
 server.post('/api/playlists', onPostPlaylist)
 
@@ -169,7 +170,10 @@ async function onPostPlaylist(request, response) {
             values ($1, $2, $3)
         `,  [nextPlaylistId, trackIds[i], i + 1]);
     }
-    response.json(playlistId, nextPlaylistId)
+    // Sender det nye playlistId tilbage til klienten som JSON, så frontenden ved at playlisten er oprettet
+    // uden {} sendes kun id'et, fx. "12" og ikke en nøgle som fx. "playlistId": 12"
+    response.json({playlistId, nextPlaylistId}) 
+    console.log(response.json)
 }
 // SLUT: AT GEMME EN PLAYLISTE
 
