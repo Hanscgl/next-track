@@ -16,8 +16,8 @@ server.get('/api/savedPlaylist/', onGetPlaylists)
 server.get('/api/users/', onGetUsers);
 server.get('/api/users/:userId/playlists/', onGetUserPlaylists);
 server.get('/api/playlist/:id/tracks/', onGetPlaylistTracks);
-server.get('/api/users/', onGetUsers)
-server.get('/api/users/:userId/playlists/', onGetUserPlaylist)
+
+
 
 server.post('/api/playlists', onPostPlaylist)
 
@@ -115,7 +115,7 @@ async function onGetNewPlaylist(request, response){
     */
 
     const dbResult = await db.query(`
-        select t.track_id, t.title, al.album_id, ar.stage_name, g.name,
+        select tracks.track_id, t.title, al.album_id, ar.stage_name, g.name,
         extract(year from al.release_date) as year
 
         from tracks t
@@ -169,11 +169,9 @@ async function onPostPlaylist(request, response) {
             values ($1, $2, $3)
         `,  [nextPlaylistId, trackIds[i], i + 1]);
     }
-    response.json(playlistId, nextPlaylistId)
+    response.json({lastPlaylistId, nextPlaylistId}) // Den sendes afsted med en nøgle
 }
 // SLUT: AT GEMME EN PLAYLISTE
-
-
 
 // UDSKRIVER I KONSOLLEN, AT SERVEREN ER OPPE AT KØRE PÅ (PORT)
 function onServerReady(){

@@ -48,6 +48,7 @@ async function visNyPlaylisteMenu() {
 /* 3. */            console.log('Valgte genre:', genreV);
 
 /* 4. */            genreButton.classList.add("valgtGenre");
+
             }); // <- klik-funktionen og addEventListener slutter her
         newPlaylist.appendChild(genreButton);
 
