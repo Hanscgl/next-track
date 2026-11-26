@@ -169,7 +169,7 @@ async function onPostPlaylist(request, response) {
             values ($1, $2, $3)
         `,  [nextPlaylistId, trackIds[i], i + 1]);
     }
-    response.json()
+    response.json(playlistId, nextPlaylistId)
 }
 // SLUT: AT GEMME EN PLAYLISTE
 
