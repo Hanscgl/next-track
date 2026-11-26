@@ -41,9 +41,9 @@ async function hentPlaylists() {
             }
         });
 
-    newPlaylist.appendChild(button);
-}
-    };
+        newPlaylist.appendChild(button);
+    }
+};
     
     
 
