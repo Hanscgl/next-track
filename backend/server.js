@@ -172,7 +172,7 @@ async function onPostPlaylist(request, response) {
     }
     // Sender det nye playlistId tilbage til klienten som JSON, så frontenden ved at playlisten er oprettet
     // uden {} sendes kun id'et, fx. "12" og ikke en nøgle som fx. "playlistId": 12"
-    response.json({playlistId, nextPlaylistId}) 
+    response.json({playlistId: nextPlaylistId}) 
     console.log(response.json)
 }
 // SLUT: AT GEMME EN PLAYLISTE

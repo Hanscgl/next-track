@@ -13,7 +13,7 @@ async function savePlaylist() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' }, //fortæller Express, at indholdet er JSON så Express ved, at den skal pakke det ud i request.body
         body: JSON.stringify({  //oversætter objektet til en tekststreng, fordi HTTP kun kan sende rå tekst
-            userId: activeUser.userId,
+            userId: activeUser.user_id,
             name: playlistName,
             trackIds: trackIds
         })
