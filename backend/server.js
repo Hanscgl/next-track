@@ -14,8 +14,10 @@ server.use(onEachRequest);
 
 server.get('/api/genres/', onGetGenres);
 server.get('/api/savedPlaylist/', onGetPlaylists)
-
-server.post('/api/playlists', onPostPlaylists)
+server.get('/api/users/', onGetUsers);
+server.get('/api/users/:userId/playlists/', onGetUserPlaylists);
+server.get('/api/playlist/:id/tracks/', onGetPlaylistTracks);
+server.post('/api/playlists', onPostPlaylist)
 
 
 // !!! den her fejler - skal undersøges nærmere !!!
@@ -33,7 +35,19 @@ async function onGetGenres(request, response) {
         `);
     response.json(dbResult.rows);
 }
+async function onGetPlaylistTracks(request, response) {
+    const playlistId = request.params.id;
 
+    const dbResult = await db.query(`
+        select track_id, title
+        from playlist_track
+        join tracks using (track_id)
+        where playlist_id = $1
+        order by position asc
+    `, [playlistId]);
+
+    response.json(dbResult.rows);
+}
 // HENTER GEMTE PLAYLISTER FRA PLAYLISTS.CSV OG OPSTILLER DEM I RÆKKEFØLGE EFTER ID(fra laveste til højeste)
 async function onGetPlaylists(request, response){
     const dbResult = await db.query(`

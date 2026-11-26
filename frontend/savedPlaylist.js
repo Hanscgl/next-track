@@ -6,7 +6,12 @@ saveButton.addEventListener("click", function () {
 //console.log("Sara test");
 async function hentPlaylists() {
     console.log("hello");
-    const response = await fetch('/api/savedPlaylist/') ;  
+    if (!activeUser) {
+    alert("Vælg først en bruger");
+    return;
+}
+
+const response = await fetch(`/api/users/${activeUser.user_id}/playlists/`);
     const savedPlaylists = await response.json() ;
     console.log(savedPlaylists);
 
@@ -16,9 +21,24 @@ async function hentPlaylists() {
     console.log(playlist.name);
     const button = document.createElement("button");
     button.textContent = playlist.name;
-    button.addEventListener("click", function () {
-    console.log(playlist.name);
+    button.addEventListener("click", async function () {
+    const response = await fetch(`/api/playlist/${playlist.playlist_id}/tracks/`);
+    const tracks = await response.json();
+    console.log(tracks);
+    const playlistView = document.querySelector(".playlist-view");
+playlistView.innerHTML = "";
+
+if (tracks.length === 0) {
+    playlistView.textContent = "Ingen numre i denne playliste.";
+}
+
+for (const track of tracks) {
+    const p = document.createElement("p");
+    p.textContent = track.title;
+    playlistView.appendChild(p);
+}
 });
+
     newPlaylist.appendChild(button);
 }
     };
