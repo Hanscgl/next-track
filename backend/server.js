@@ -130,13 +130,13 @@ async function onPostPlaylist(request, response) {
 
     // FINDER DET HØJESTE ID PÅ PLAYLISTERNE I playlists
     const lastPlaylistId = await db.query(`
-        select max(playlist_id) as latestPlaylistId
+        select max(playlist_id) as latest_playlist_id
         from playlists
     `);
     
-    // GÅR IND I lastPlaylistId, KIGGER PÅ DEN FØRSTE RÆKKE [0], TAGER latestPlaylistId, LAVER DET OM TIL ET NUMBER OG TILFØJER 1 TIL DET
-    const currentId = lastPlaylistId.rows[0].latestPlaylistId;
-    const nextPlaylistId = Number(currentId) + 1; // "Number" fordi at latestPlaylistId ligger som en string i lastPlaylistId
+    // GÅR IND I lastPlaylistId, KIGGER PÅ DEN FØRSTE RÆKKE [0], TAGER latest_playlist_id, LAVER DET OM TIL ET NUMBER OG TILFØJER 1 TIL DET
+    const currentId = lastPlaylistId.rows[0].latest_playlist_id;
+    const nextPlaylistId = Number(currentId) + 1; // "Number" fordi at latest_playlist_id ligger som en "string" i lastPlaylistId
 
     // NY RÆKKE I PLAYLISTS MED VÆRDIERNE:
     // $1 = den nye playlistes ID
@@ -149,12 +149,13 @@ async function onPostPlaylist(request, response) {
     `,      [nextPlaylistId, userId, name]);
 
     // FOR HVERT TRACK TILDELES playlist_id, track_id, position OG SÆTTES IND I TABELLEN playlist_track
-    for (let i = 0; i < trackIds.length; i++); {
+    for (let i = 0; i < trackIds.length; i++) {
         await db.query(`
             insert into playlist_track (playlist_id, track_id, position)
-            values $1, $2, $3
+            values ($1, $2, $3)
         `,  [nextPlaylistId, trackIds[i], i + 1]);
     }
+    response.json()
 }
 // SLUT: AT GEMME EN PLAYLISTE
 
