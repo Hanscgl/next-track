@@ -156,10 +156,11 @@ async function visNyPlaylisteMenu() {
             const playlistSvar = await response.json();
             console.log(playlistSvar)
         
-            const newPlaylist = document.getElementById("middle-section");
+            const newPlaylist = document.getElementById("playlist-view");
             const newPlaylistDiv = document.createElement("div");
+            newPlaylist.innerHTML = "";
             newPlaylist.appendChild(newPlaylistDiv);
-            newPlaylistDiv.innerHTML = "";
+            
             for (const newP of playlistSvar){
                 const p = document.createElement("p");
                 p.textContent = newP.title + " ---- Artist: " + newP.stage_name;

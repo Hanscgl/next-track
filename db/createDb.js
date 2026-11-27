@@ -160,12 +160,12 @@ await upload(db, 'db/playlists.csv', `
     with csv header encoding 'UTF-8'
 `);
 
-/*wait upload(db, 'db/playlist_track.csv', `
+await upload(db, 'db/playlist_track.csv', `
     copy playlist_track (playlist_id, track_id)
     from stdin
     with csv header encoding 'UTF-8'
 `);
-*/
+
 
 await db.end();
 console.log('Database successfully recreated.');
