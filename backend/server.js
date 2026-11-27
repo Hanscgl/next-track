@@ -18,7 +18,7 @@ server.get('/api/users/', onGetUsers);
 server.get('/api/users/:userId/playlists/', onGetUserPlaylists);
 server.get('/api/playlist/:id/tracks/', onGetPlaylistTracks);
 server.get('/api/users/', onGetUsers)
-server.get('/api/users/:userId/playlists/', onGetUserPlaylists)
+
 
 server.post('/api/playlists', onPostPlaylist)
 

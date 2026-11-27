@@ -27,7 +27,7 @@ async function hentPlaylists() {
             const response = await fetch(`/api/playlist/${playlist.playlist_id}/tracks/`);
             const tracks = await response.json();
             console.log(tracks);
-            const playlistView = document.querySelector(".playlist-view");
+            const playlistView = document.getElementById("playlist-view");
             playlistView.innerHTML = "";
 
             if (tracks.length === 0) {
