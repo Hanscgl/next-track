@@ -23,7 +23,7 @@ server.get('/api/users/:userId/playlists/', onGetUserPlaylists)
 server.post('/api/playlists', onPostPlaylist)
 
 // Virker nu !!! Ny playliste: 15 tilfældige sange ud fra genre og årti
-server.get('/api/newPlaylist/:genre/:minValue/:maxValue', onGetNewPlaylist)
+server.get('/api/newPlaylist/:genreId/:minValue/:maxValue', onGetNewPlaylist)
 
 server.listen(port, onServerReady);
 
@@ -88,7 +88,7 @@ async function onGetUserPlaylists(request, response){
 //lav en ny liste, som er en playliste lavet ud fra vores parametre
 async function onGetNewPlaylist(request, response){
     
-    const genreNavn = request.params.genre ;
+    const genreNavn = request.params.genreId ;
     const minYear = parseInt(request.params.minValue) ;
     const maxYear = parseInt(request.params.maxValue) ;
     
@@ -116,7 +116,7 @@ async function onGetNewPlaylist(request, response){
     */
 
     const dbResult = await db.query(`
-        select t.track_id, t.title, al.album_id, ar.stage_name, g.name,
+        select t.track_id, t.title, al.album_id, ar.stage_name, ar.artist_id, g.name,
         extract(year from al.release_date) as year
 
         from tracks t
@@ -125,7 +125,7 @@ async function onGetNewPlaylist(request, response){
         join artists ar using (artist_id)
         join genres g using (genre_id)
 
-        where g.name = $1
+        where g.genre_id = $1
         and extract(year from al.release_date) between $2 and $3
         order by random()
         limit 15;
@@ -176,8 +176,6 @@ async function onPostPlaylist(request, response) {
     console.log(response.json)
 }
 // SLUT: AT GEMME EN PLAYLISTE
-
-
 
 // UDSKRIVER I KONSOLLEN, AT SERVEREN ER OPPE AT KØRE PÅ (PORT)
 function onServerReady(){

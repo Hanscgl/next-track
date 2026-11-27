@@ -51,7 +51,7 @@ body {
 .playlist-options {
   border: 1px solid black;
 }
-.now-playing-header .shared-queue-header {
+.now-playing-header, .shared-queue-header {
   background-color: #919191;
 }
 

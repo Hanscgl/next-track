@@ -1,7 +1,7 @@
 const newButton = document.getElementById("new-button");
 newButton.addEventListener('click', visNyPlaylisteMenu);
 
-let genreV;
+let genreId;
 let minV;
 let maxV;
 
@@ -10,8 +10,8 @@ async function visNyPlaylisteMenu() {
     const genres = await response.json();
     console.log(genres);
 
-    const newPlaylist = document.getElementById("new-playlist");
-    newPlaylist.innerHTML = "Select Genre <br>";
+    const newPlaylistS = document.getElementById("new-playlist");
+    newPlaylistS.innerHTML = "Select Genre <br>";
 
     for (const genre of genres) {
         // HTML DOM - Opretter en ny knap for hver runde i for .. of loop'et
@@ -44,12 +44,13 @@ async function visNyPlaylisteMenu() {
                         knap.classList.remove("valgtGenre");
                     }
 
-/* 2. */            genreV = genre.name;
-/* 3. */            console.log('Valgte genre:', genreV);
+/* 2. */            genreId = genre.genre_id;
+/* 3. */            console.log('Valgte genre:', genreId);
 
 /* 4. */            genreButton.classList.add("valgtGenre");
+
             }); // <- klik-funktionen og addEventListener slutter her
-        newPlaylist.appendChild(genreButton);
+        newPlaylistS.appendChild(genreButton);
 
     }; // <- for .. of loop - med gennemgang af genre slutter her
 
@@ -58,7 +59,7 @@ async function visNyPlaylisteMenu() {
 
     // HTML DOM - Der oprettes en ny 'div'-kasse under genre-knapperne
     const nyDiv = document.createElement("div");
-    newPlaylist.appendChild(nyDiv);
+    newPlaylistS.appendChild(nyDiv);
 
     // HTML DOM - Vi indsætter en select menu i den nye 'div'
     nyDiv.innerHTML =
@@ -128,7 +129,7 @@ async function visNyPlaylisteMenu() {
 
         TODO: De to ens løkker kan blive til en ...
     */
-    function hentAarti() {
+    async function hentAarti() {
         const valgteAar = document.getElementById("year-select").value;
         console.log(valgteAar);
 
@@ -147,6 +148,24 @@ async function visNyPlaylisteMenu() {
         console.log('minimum værdi:', minV);
         console.log('maximum værdi:', maxV);
 
+        
+        const tabelP = {genre : genreId, minAarstal : minV, maxAarstal : maxV};
+        
+            const response = await fetch(`/api/newPlaylist/${tabelP["genre"]}/${tabelP["minAarstal"]}/${tabelP["maxAarstal"]}`)
+            // Den nye playliste 
+            const playlistSvar = await response.json();
+            console.log(playlistSvar)
+        
+            const newPlaylist = document.getElementById("middle-section");
+            const newPlaylistDiv = document.createElement("div");
+            newPlaylist.appendChild(newPlaylistDiv);
+            newPlaylistDiv.innerHTML = "";
+            for (const newP of playlistSvar){
+                const p = document.createElement("p");
+                p.textContent = newP.title + " ---- Artist: " + newP.stage_name;
+                newPlaylistDiv.appendChild(p);
+            }
+        
 
     };
 
